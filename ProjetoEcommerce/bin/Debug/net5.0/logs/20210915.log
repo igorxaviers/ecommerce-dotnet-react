@@ -1,0 +1,699 @@
+2021-09-15 16:35:02.001 -03:00 [INF] Logger funcionado...
+2021-09-15 16:35:02.144 -03:00 [INF] Starting...
+2021-09-15 16:35:04.824 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 16:35:04.841 -03:00 [INF] Creating key {fb079898-b732-48ba-80c2-c2dd16c905fa} with creation date 2021-09-15 19:35:04Z, activation date 2021-09-15 19:35:04Z, and expiration date 2021-12-14 19:35:04Z.
+2021-09-15 16:35:04.938 -03:00 [INF] Writing data to file 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys\key-fb079898-b732-48ba-80c2-c2dd16c905fa.xml'.
+2021-09-15 16:35:06.141 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 16:35:06.144 -03:00 [INF] Hosting environment: Development
+2021-09-15 16:35:06.146 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 16:35:06.209 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 16:35:06.234 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 16:35:06.278 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 16:35:06.283 -03:00 [INF] passou aqui meo
+2021-09-15 16:35:06.321 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 16:35:06.411 -03:00 [INF] Executed ViewResult - view Index executed in 115.2328ms.
+2021-09-15 16:35:06.414 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 133.8811ms
+2021-09-15 16:35:06.417 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 16:35:06.424 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - -
+2021-09-15 16:35:06.426 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - -
+2021-09-15 16:35:06.433 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 226.3594ms
+2021-09-15 16:35:06.475 -03:00 [INF] Sending file. Request path: '/templates/site/js/scripts.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\site\js\scripts.js'
+2021-09-15 16:35:06.478 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - - - 200 330 application/javascript 53.7046ms
+2021-09-15 16:35:06.485 -03:00 [INF] Sending file. Request path: '/templates/site/css/styles.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\site\css\styles.css'
+2021-09-15 16:35:06.491 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - - - 200 206202 text/css 67.2443ms
+2021-09-15 16:35:10.558 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - -
+2021-09-15 16:35:10.565 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - - - 404 - - 7.0533ms
+2021-09-15 16:41:33.726 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/adin - -
+2021-09-15 16:41:33.736 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/adin - - - 404 - - 8.0124ms
+2021-09-15 16:41:37.049 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 16:41:37.054 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 16:41:37.057 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 16:41:37.069 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 16:41:37.096 -03:00 [INF] Executed ViewResult - view Index executed in 36.0397ms.
+2021-09-15 16:41:37.098 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 38.5904ms
+2021-09-15 16:41:37.099 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 16:41:37.102 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 53.4782ms
+2021-09-15 16:41:37.109 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-09-15 16:41:37.111 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - -
+2021-09-15 16:41:37.115 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-09-15 16:41:37.118 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-09-15 16:41:37.122 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-09-15 16:41:37.122 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59344 text/css 12.9033ms
+2021-09-15 16:41:37.127 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-09-15 16:41:37.128 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - -
+2021-09-15 16:41:37.128 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - -
+2021-09-15 16:41:37.134 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-09-15 16:41:37.136 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 19.3872ms
+2021-09-15 16:41:37.136 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - -
+2021-09-15 16:41:37.141 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-09-15 16:41:37.142 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-09-15 16:41:37.145 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-09-15 16:41:37.147 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-09-15 16:41:37.148 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - - - 200 1265 application/javascript 21.3085ms
+2021-09-15 16:41:37.151 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - - - 200 3569 application/javascript 13.6596ms
+2021-09-15 16:41:37.152 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - - - 200 170737 text/css 39.7503ms
+2021-09-15 16:41:37.150 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - -
+2021-09-15 16:41:37.155 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-09-15 16:41:37.155 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - - - 200 89501 application/javascript 25.9184ms
+2021-09-15 16:41:37.159 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-09-15 16:41:37.161 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - - - 200 1057 application/javascript 10.9759ms
+2021-09-15 16:41:37.164 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-09-15 16:41:37.165 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173077 application/javascript 42.3566ms
+2021-09-15 16:41:37.167 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84378 application/javascript 33.7758ms
+2021-09-15 16:41:37.516 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-15 16:41:37.524 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-15 16:41:37.527 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 11.1323ms
+2021-09-15 17:58:37.721 -03:00 [INF] Logger funcionado...
+2021-09-15 17:58:37.826 -03:00 [INF] Starting...
+2021-09-15 17:58:38.634 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 17:58:38.969 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 17:58:38.971 -03:00 [INF] Hosting environment: Development
+2021-09-15 17:58:38.972 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 17:58:39.008 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 17:58:39.041 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 17:58:39.081 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 17:58:39.085 -03:00 [INF] passou aqui meo
+2021-09-15 17:58:39.126 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 17:58:39.202 -03:00 [INF] Executed ViewResult - view Index executed in 103.4332ms.
+2021-09-15 17:58:39.205 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 122.6441ms
+2021-09-15 17:58:39.208 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 17:58:39.213 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - -
+2021-09-15 17:58:39.217 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - -
+2021-09-15 17:58:39.227 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 220.7302ms
+2021-09-15 17:58:39.236 -03:00 [INF] The file /templates/site/js/scripts.js was not modified
+2021-09-15 17:58:39.236 -03:00 [INF] The file /templates/site/css/styles.css was not modified
+2021-09-15 17:58:39.244 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - - - 304 - application/javascript 27.8561ms
+2021-09-15 17:58:39.244 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - - - 304 - text/css 31.0924ms
+2021-09-15 18:12:13.849 -03:00 [INF] Logger funcionado...
+2021-09-15 18:12:13.938 -03:00 [INF] Starting...
+2021-09-15 18:12:14.718 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 18:12:15.057 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 18:12:15.059 -03:00 [INF] Hosting environment: Development
+2021-09-15 18:12:15.061 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 18:12:15.095 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:12:15.128 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:15.171 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:12:15.175 -03:00 [INF] passou aqui meo
+2021-09-15 18:12:15.216 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:12:15.291 -03:00 [INF] Executed ViewResult - view Index executed in 103.242ms.
+2021-09-15 18:12:15.295 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 121.2365ms
+2021-09-15 18:12:15.297 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:15.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - -
+2021-09-15 18:12:15.303 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - -
+2021-09-15 18:12:15.320 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 227.4149ms
+2021-09-15 18:12:15.322 -03:00 [INF] The file /templates/site/js/scripts.js was not modified
+2021-09-15 18:12:15.322 -03:00 [INF] The file /templates/site/css/styles.css was not modified
+2021-09-15 18:12:15.331 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - - - 304 - application/javascript 28.2865ms
+2021-09-15 18:12:15.331 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - - - 304 - text/css 31.2460ms
+2021-09-15 18:12:27.053 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:12:27.055 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:27.057 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:12:27.058 -03:00 [INF] passou aqui meo
+2021-09-15 18:12:27.059 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:12:27.063 -03:00 [INF] Executed ViewResult - view Index executed in 3.2481ms.
+2021-09-15 18:12:27.064 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 6.0004ms
+2021-09-15 18:12:27.065 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:27.067 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 14.2738ms
+2021-09-15 18:12:27.739 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:12:27.741 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:27.742 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:12:27.744 -03:00 [INF] passou aqui meo
+2021-09-15 18:12:27.745 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:12:27.747 -03:00 [INF] Executed ViewResult - view Index executed in 1.9317ms.
+2021-09-15 18:12:27.748 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 4.8588ms
+2021-09-15 18:12:27.750 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:27.752 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 13.1836ms
+2021-09-15 18:12:30.982 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:12:30.986 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:30.990 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:12:30.994 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:12:31.012 -03:00 [INF] Executed ViewResult - view Index executed in 19.6643ms.
+2021-09-15 18:12:31.014 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 22.0775ms
+2021-09-15 18:12:31.016 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:12:31.018 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 35.7977ms
+2021-09-15 18:12:31.025 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-09-15 18:12:31.027 -03:00 [INF] The file /templates/admin/vendor/fontawesome-free/css/all.min.css was not modified
+2021-09-15 18:12:31.029 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:12:31.029 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - -
+2021-09-15 18:12:31.033 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - -
+2021-09-15 18:12:31.033 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-09-15 18:12:31.036 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 304 - text/css 8.0542ms
+2021-09-15 18:12:31.036 -03:00 [INF] The file /templates/admin/vendor/jquery/jquery.min.js was not modified
+2021-09-15 18:12:31.039 -03:00 [INF] The file /templates/admin/css/sb-admin-2.min.css was not modified
+2021-09-15 18:12:31.043 -03:00 [INF] The file /templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js was not modified
+2021-09-15 18:12:31.046 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - - - 304 - application/javascript 15.3308ms
+2021-09-15 18:12:31.048 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - - - 304 - text/css 15.9434ms
+2021-09-15 18:12:31.048 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 304 - application/javascript 14.4287ms
+2021-09-15 18:12:31.049 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:12:31.033 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-09-15 18:12:31.041 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - -
+2021-09-15 18:12:31.055 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - -
+2021-09-15 18:12:31.055 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-09-15 18:12:31.056 -03:00 [INF] The file /templates/admin/vendor/jquery-easing/jquery.easing.min.js was not modified
+2021-09-15 18:12:31.058 -03:00 [INF] The file /templates/admin/js/sb-admin-2.min.js was not modified
+2021-09-15 18:12:31.063 -03:00 [INF] The file /templates/admin/vendor/chart.js/Chart.min.js was not modified
+2021-09-15 18:12:31.062 -03:00 [INF] The file /templates/admin/js/demo/chart-area-demo.js was not modified
+2021-09-15 18:12:31.063 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 304 - application/javascript 29.8318ms
+2021-09-15 18:12:31.067 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - -
+2021-09-15 18:12:31.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - - - 304 - application/javascript 13.2854ms
+2021-09-15 18:12:31.064 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - - - 304 - application/javascript 22.9945ms
+2021-09-15 18:12:31.072 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - - - 304 - application/javascript 17.3942ms
+2021-09-15 18:12:31.073 -03:00 [INF] The file /templates/admin/js/demo/chart-pie-demo.js was not modified
+2021-09-15 18:12:31.078 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - - - 304 - application/javascript 12.4771ms
+2021-09-15 18:12:31.086 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:12:31.086 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-09-15 18:12:31.090 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 521 application/javascript 41.6887ms
+2021-09-15 18:12:31.090 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 200 3322 application/javascript 60.1562ms
+2021-09-15 18:12:44.039 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-09-15 18:12:44.048 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-09-15 18:12:44.055 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 15.5822ms
+2021-09-15 18:13:10.902 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:13:10.907 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:13:10.908 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:13:10.910 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:13:10.912 -03:00 [INF] Executed ViewResult - view Index executed in 2.2313ms.
+2021-09-15 18:13:10.915 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 4.7362ms
+2021-09-15 18:13:10.918 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:13:10.920 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 18.4374ms
+2021-09-15 18:13:10.932 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:13:10.934 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:13:10.936 -03:00 [INF] The file /views/login/index.js was not modified
+2021-09-15 18:13:10.938 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 304 - application/javascript 4.8611ms
+2021-09-15 18:13:10.950 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-09-15 18:13:10.952 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 200 3321 application/javascript 20.1772ms
+2021-09-15 18:13:11.034 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-15 18:13:11.040 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-15 18:13:11.043 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 8.1188ms
+2021-09-15 18:13:12.376 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Login/Autenticar application/json;+charset=utf-8 12
+2021-09-15 18:13:12.380 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Login/Autenticar application/json;+charset=utf-8 12 - 404 - - 3.6218ms
+2021-09-15 18:14:09.489 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:14:09.491 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:09.495 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:14:09.497 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:14:09.501 -03:00 [INF] Executed ViewResult - view Index executed in 4.4461ms.
+2021-09-15 18:14:09.503 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 6.3261ms
+2021-09-15 18:14:09.505 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:09.507 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 18.7256ms
+2021-09-15 18:14:09.518 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:14:09.519 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:14:09.522 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-09-15 18:14:09.525 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 304 - application/javascript 7.1562ms
+2021-09-15 18:14:09.532 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:14:09.534 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 528 application/javascript 15.8915ms
+2021-09-15 18:14:09.590 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-15 18:14:09.592 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-15 18:14:09.594 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 3.7706ms
+2021-09-15 18:14:10.700 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:14:10.702 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:10.703 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:14:10.704 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:14:10.707 -03:00 [INF] Executed ViewResult - view Index executed in 2.1943ms.
+2021-09-15 18:14:10.708 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 3.8536ms
+2021-09-15 18:14:10.710 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:10.713 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 13.1899ms
+2021-09-15 18:14:10.721 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-09-15 18:14:10.724 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-09-15 18:14:10.727 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - -
+2021-09-15 18:14:10.727 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - -
+2021-09-15 18:14:10.737 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - -
+2021-09-15 18:14:10.743 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-09-15 18:14:10.752 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-09-15 18:14:10.752 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-09-15 18:14:10.752 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-09-15 18:14:10.759 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59344 text/css 37.9190ms
+2021-09-15 18:14:10.759 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 16.4301ms
+2021-09-15 18:14:10.761 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-09-15 18:14:10.763 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - -
+2021-09-15 18:14:10.764 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-09-15 18:14:10.764 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - -
+2021-09-15 18:14:10.763 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - - - 200 1265 application/javascript 25.3557ms
+2021-09-15 18:14:10.752 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-09-15 18:14:10.771 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-09-15 18:14:10.773 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:14:10.775 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84378 application/javascript 51.3278ms
+2021-09-15 18:14:10.772 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - - - 200 89501 application/javascript 44.8169ms
+2021-09-15 18:14:10.778 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - - - 200 3569 application/javascript 15.1673ms
+2021-09-15 18:14:10.779 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-09-15 18:14:10.772 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-09-15 18:14:10.771 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - - - 200 170737 text/css 44.2322ms
+2021-09-15 18:14:10.775 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:14:10.784 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 200 3321 application/javascript 10.8150ms
+2021-09-15 18:14:10.786 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - - - 200 1057 application/javascript 21.0850ms
+2021-09-15 18:14:10.760 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-09-15 18:14:10.790 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:14:10.793 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 528 application/javascript 17.2807ms
+2021-09-15 18:14:10.797 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-09-15 18:14:10.801 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173077 application/javascript 40.6546ms
+2021-09-15 18:14:10.860 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-15 18:14:10.863 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-15 18:14:10.865 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 4.6427ms
+2021-09-15 18:14:12.456 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466//Admin/Login/Autenticar application/json;+charset=utf-8 12
+2021-09-15 18:14:12.460 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466//Admin/Login/Autenticar application/json;+charset=utf-8 12 - 404 - - 3.4494ms
+2021-09-15 18:14:18.346 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:14:18.348 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:18.350 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:14:18.352 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:14:18.354 -03:00 [INF] Executed ViewResult - view Index executed in 2.6421ms.
+2021-09-15 18:14:18.356 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 4.7825ms
+2021-09-15 18:14:18.358 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:18.360 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 13.9569ms
+2021-09-15 18:14:18.369 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:14:18.369 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:14:18.373 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-09-15 18:14:18.376 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 304 - application/javascript 6.2332ms
+2021-09-15 18:14:18.385 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:14:18.388 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 527 application/javascript 19.0449ms
+2021-09-15 18:14:18.465 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-15 18:14:18.468 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-15 18:14:18.470 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 5.0594ms
+2021-09-15 18:14:19.459 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:14:19.461 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:19.463 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:14:19.464 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:14:19.466 -03:00 [INF] Executed ViewResult - view Index executed in 1.5905ms.
+2021-09-15 18:14:19.467 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 3.025ms
+2021-09-15 18:14:19.469 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:19.470 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 11.2723ms
+2021-09-15 18:14:19.479 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-09-15 18:14:19.481 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - -
+2021-09-15 18:14:19.484 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - -
+2021-09-15 18:14:19.485 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-09-15 18:14:19.487 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - -
+2021-09-15 18:14:19.488 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-09-15 18:14:19.493 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-09-15 18:14:19.488 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-09-15 18:14:19.501 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-09-15 18:14:19.496 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59344 text/css 17.5678ms
+2021-09-15 18:14:19.506 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-09-15 18:14:19.507 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-09-15 18:14:19.510 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - - - 200 1265 application/javascript 23.9337ms
+2021-09-15 18:14:19.510 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - -
+2021-09-15 18:14:19.515 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - -
+2021-09-15 18:14:19.520 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:14:19.502 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 16.8879ms
+2021-09-15 18:14:19.523 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-09-15 18:14:19.525 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-09-15 18:14:19.526 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-09-15 18:14:19.531 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - - - 200 1057 application/javascript 17.2458ms
+2021-09-15 18:14:19.531 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:14:19.535 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 200 3321 application/javascript 14.9226ms
+2021-09-15 18:14:19.537 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-09-15 18:14:19.528 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-09-15 18:14:19.501 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-09-15 18:14:19.542 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:14:19.518 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - - - 200 170737 text/css 37.0156ms
+2021-09-15 18:14:19.528 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - - - 200 3569 application/javascript 18.2877ms
+2021-09-15 18:14:19.546 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 527 application/javascript 15.3319ms
+2021-09-15 18:14:19.547 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84378 application/javascript 58.2947ms
+2021-09-15 18:14:19.550 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - - - 200 89501 application/javascript 65.6635ms
+2021-09-15 18:14:19.551 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173077 application/javascript 46.9937ms
+2021-09-15 18:14:19.622 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-15 18:14:19.624 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-15 18:14:19.626 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 4.3802ms
+2021-09-15 18:14:20.960 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 12
+2021-09-15 18:14:20.963 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:14:20.973 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:14:37.960 -03:00 [INF] Logger funcionado...
+2021-09-15 18:14:38.050 -03:00 [INF] Starting...
+2021-09-15 18:14:38.848 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 18:14:39.278 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 18:14:39.280 -03:00 [INF] Hosting environment: Development
+2021-09-15 18:14:39.281 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 18:14:39.314 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:14:39.351 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:39.388 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:14:39.392 -03:00 [INF] passou aqui meo
+2021-09-15 18:14:39.432 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:14:39.509 -03:00 [INF] Executed ViewResult - view Index executed in 103.6848ms.
+2021-09-15 18:14:39.512 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 121.9759ms
+2021-09-15 18:14:39.514 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:39.524 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 211.2687ms
+2021-09-15 18:14:39.633 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - -
+2021-09-15 18:14:39.640 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - - - 404 - - 6.1266ms
+2021-09-15 18:14:41.135 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:14:41.138 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:41.141 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:14:41.145 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:14:41.163 -03:00 [INF] Executed ViewResult - view Index executed in 20.0763ms.
+2021-09-15 18:14:41.165 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 22.7528ms
+2021-09-15 18:14:41.167 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:14:41.170 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 34.4042ms
+2021-09-15 18:14:41.185 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:14:41.185 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:14:41.203 -03:00 [INF] The file /views/login/index.js was not modified
+2021-09-15 18:14:41.203 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-09-15 18:14:41.207 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 304 - application/javascript 22.2674ms
+2021-09-15 18:14:41.207 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 304 - application/javascript 22.2674ms
+2021-09-15 18:14:45.688 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 12
+2021-09-15 18:14:45.692 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:14:45.702 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:15:47.700 -03:00 [INF] Logger funcionado...
+2021-09-15 18:15:47.800 -03:00 [INF] Starting...
+2021-09-15 18:15:48.550 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 18:15:48.941 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 18:15:48.942 -03:00 [INF] Hosting environment: Development
+2021-09-15 18:15:48.944 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 18:15:48.978 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:15:49.010 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:15:49.051 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:15:49.056 -03:00 [INF] passou aqui meo
+2021-09-15 18:15:49.099 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:15:49.191 -03:00 [INF] Executed ViewResult - view Index executed in 119.8061ms.
+2021-09-15 18:15:49.194 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 140.3813ms
+2021-09-15 18:15:49.197 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:15:49.207 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 230.6895ms
+2021-09-15 18:15:49.315 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - -
+2021-09-15 18:15:49.328 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - - - 404 - - 13.4182ms
+2021-09-15 18:15:52.341 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:15:52.344 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:15:52.348 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:15:52.352 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:15:52.370 -03:00 [INF] Executed ViewResult - view Index executed in 20.0979ms.
+2021-09-15 18:15:52.372 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 22.7128ms
+2021-09-15 18:15:52.374 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:15:52.376 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 34.4605ms
+2021-09-15 18:15:52.395 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:15:52.395 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:15:52.415 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-09-15 18:15:52.418 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 304 - application/javascript 23.4407ms
+2021-09-15 18:15:52.434 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:15:52.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 558 application/javascript 41.3131ms
+2021-09-15 18:15:59.588 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 12
+2021-09-15 18:15:59.591 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:15:59.603 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:17:07.824 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 68218.5391ms
+2021-09-15 18:17:07.826 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:17:07.832 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Text.Json.JsonElement.GetProperty(String propertyName)
+   at ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar(JsonElement dados) in D:\ProjetoEcommerce\ProjetoEcommerce\Areas\Admin\Controllers\LoginController.cs:line 21
+   at lambda_method23(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-15 18:17:07.963 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 12 - 500 - text/plain 68377.3323ms
+2021-09-15 18:17:17.592 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 12
+2021-09-15 18:17:17.594 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:17:17.597 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:17:28.932 -03:00 [INF] Logger funcionado...
+2021-09-15 18:17:29.027 -03:00 [INF] Starting...
+2021-09-15 18:17:29.798 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 18:17:30.271 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 18:17:30.274 -03:00 [INF] Hosting environment: Development
+2021-09-15 18:17:30.275 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 18:17:30.322 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:17:30.358 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:17:30.397 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:17:30.401 -03:00 [INF] passou aqui meo
+2021-09-15 18:17:30.442 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:17:30.515 -03:00 [INF] Executed ViewResult - view Index executed in 101.5557ms.
+2021-09-15 18:17:30.519 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 119.9243ms
+2021-09-15 18:17:30.521 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:17:30.536 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 216.7669ms
+2021-09-15 18:17:33.815 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:17:33.820 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:17:33.823 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:17:33.828 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:17:33.851 -03:00 [INF] Executed ViewResult - view Index executed in 24.6352ms.
+2021-09-15 18:17:33.853 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 27.6257ms
+2021-09-15 18:17:33.854 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:17:33.857 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 41.2738ms
+2021-09-15 18:17:33.874 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:17:33.874 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:17:33.890 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-09-15 18:17:33.894 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 304 - application/javascript 20.6291ms
+2021-09-15 18:17:33.916 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:17:33.919 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 570 application/javascript 44.6037ms
+2021-09-15 18:18:47.944 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:18:47.948 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:18:47.951 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:18:59.076 -03:00 [INF] Logger funcionado...
+2021-09-15 18:18:59.166 -03:00 [INF] Starting...
+2021-09-15 18:18:59.956 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 18:19:00.309 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 18:19:00.311 -03:00 [INF] Hosting environment: Development
+2021-09-15 18:19:00.312 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 18:19:00.344 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:19:00.378 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:19:00.421 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:19:00.425 -03:00 [INF] passou aqui meo
+2021-09-15 18:19:00.462 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:19:00.540 -03:00 [INF] Executed ViewResult - view Index executed in 102.2765ms.
+2021-09-15 18:19:00.543 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 119.5134ms
+2021-09-15 18:19:00.545 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:19:00.555 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 212.4404ms
+2021-09-15 18:19:00.714 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:19:00.719 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:19:00.725 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:19:00.728 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:19:00.753 -03:00 [INF] Executed ViewResult - view Index executed in 26.1487ms.
+2021-09-15 18:19:00.755 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 28.4823ms
+2021-09-15 18:19:00.757 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:19:00.759 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 44.9027ms
+2021-09-15 18:19:00.775 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:19:00.777 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:19:00.789 -03:00 [INF] The file /views/login/index.js was not modified
+2021-09-15 18:19:00.789 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-09-15 18:19:00.794 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 304 - application/javascript 18.4938ms
+2021-09-15 18:19:00.794 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 304 - application/javascript 17.4222ms
+2021-09-15 18:19:09.152 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 29
+2021-09-15 18:19:09.156 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:19:09.168 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:19:09.239 -03:00 [INF] Executing ViewResult, running view ~/Views/Login/Index.cshtml.
+2021-09-15 18:19:09.245 -03:00 [ERR] The view '~/Views/Login/Index.cshtml' was not found. Searched locations: ["~/Views/Login/Index.cshtml"]
+2021-09-15 18:19:09.251 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 80.5586ms
+2021-09-15 18:19:09.253 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:19:09.257 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view '~/Views/Login/Index.cshtml' was not found. The following locations were searched:
+~/Views/Login/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-15 18:19:09.294 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 29 - 500 - text/plain 141.6750ms
+2021-09-15 18:19:52.499 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33
+2021-09-15 18:19:52.505 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:19:52.506 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:19:52.513 -03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2021-09-15 18:19:52.515 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 6.8559ms
+2021-09-15 18:19:52.516 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:19:52.522 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33 - 302 - - 22.7663ms
+2021-09-15 18:19:52.523 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Index - -
+2021-09-15 18:19:52.524 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:19:52.526 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:19:52.527 -03:00 [INF] passou aqui meo
+2021-09-15 18:19:52.552 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:19:52.555 -03:00 [INF] Executed ViewResult - view Index executed in 25.4537ms.
+2021-09-15 18:19:52.556 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 28.9242ms
+2021-09-15 18:19:52.557 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:19:52.559 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Index - - - 200 - text/html;+charset=utf-8 35.8556ms
+2021-09-15 18:20:01.399 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33
+2021-09-15 18:20:01.401 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:20:01.403 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:20:01.404 -03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2021-09-15 18:20:01.406 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 1.8555ms
+2021-09-15 18:20:01.408 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:20:01.410 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33 - 302 - - 11.4223ms
+2021-09-15 18:20:01.413 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Index - -
+2021-09-15 18:20:01.414 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:01.416 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:20:01.417 -03:00 [INF] passou aqui meo
+2021-09-15 18:20:01.419 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:20:01.421 -03:00 [INF] Executed ViewResult - view Index executed in 2.391ms.
+2021-09-15 18:20:01.423 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 5.6001ms
+2021-09-15 18:20:01.425 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:01.427 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Index - - - 200 - text/html;+charset=utf-8 14.6738ms
+2021-09-15 18:20:06.670 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33
+2021-09-15 18:20:06.672 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:20:06.674 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:20:06.676 -03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2021-09-15 18:20:06.678 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 2.19ms
+2021-09-15 18:20:06.679 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:20:06.682 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33 - 302 - - 11.8802ms
+2021-09-15 18:20:06.684 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Index - -
+2021-09-15 18:20:06.685 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:06.686 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:20:06.688 -03:00 [INF] passou aqui meo
+2021-09-15 18:20:06.689 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:20:06.690 -03:00 [INF] Executed ViewResult - view Index executed in 1.5158ms.
+2021-09-15 18:20:06.691 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 3.9074ms
+2021-09-15 18:20:06.693 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:06.695 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Index - - - 200 - text/html;+charset=utf-8 10.7082ms
+2021-09-15 18:20:13.894 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33
+2021-09-15 18:20:13.896 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:20:13.898 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:20:13.899 -03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2021-09-15 18:20:13.901 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 2.0606ms
+2021-09-15 18:20:13.904 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:20:13.907 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33 - 302 - - 12.0906ms
+2021-09-15 18:20:13.909 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Index - -
+2021-09-15 18:20:13.911 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:13.912 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:20:13.914 -03:00 [INF] passou aqui meo
+2021-09-15 18:20:13.916 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:20:13.918 -03:00 [INF] Executed ViewResult - view Index executed in 2.3152ms.
+2021-09-15 18:20:13.920 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 6.1466ms
+2021-09-15 18:20:13.922 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:13.924 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Index - - - 200 - text/html;+charset=utf-8 15.4812ms
+2021-09-15 18:20:49.919 -03:00 [INF] Logger funcionado...
+2021-09-15 18:20:50.003 -03:00 [INF] Starting...
+2021-09-15 18:20:50.736 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 18:20:51.112 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 18:20:51.113 -03:00 [INF] Hosting environment: Development
+2021-09-15 18:20:51.115 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 18:20:51.149 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:20:51.181 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:51.223 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:20:51.227 -03:00 [INF] passou aqui meo
+2021-09-15 18:20:51.267 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:20:51.342 -03:00 [INF] Executed ViewResult - view Index executed in 100.8153ms.
+2021-09-15 18:20:51.345 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 119.6667ms
+2021-09-15 18:20:51.347 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:51.361 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 214.7493ms
+2021-09-15 18:20:52.440 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:20:52.444 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:52.448 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:20:52.452 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:20:52.480 -03:00 [INF] Executed ViewResult - view Index executed in 29.6761ms.
+2021-09-15 18:20:52.482 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 31.8706ms
+2021-09-15 18:20:52.483 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:20:52.486 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 45.8642ms
+2021-09-15 18:20:52.503 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:20:52.503 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:20:52.517 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-09-15 18:20:52.517 -03:00 [INF] The file /views/login/index.js was not modified
+2021-09-15 18:20:52.523 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 304 - application/javascript 19.9049ms
+2021-09-15 18:20:52.523 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 304 - application/javascript 19.9050ms
+2021-09-15 18:21:05.016 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33
+2021-09-15 18:21:05.020 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:21:05.032 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:27:41.922 -03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2021-09-15 18:27:41.924 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 396889.3018ms
+2021-09-15 18:27:41.925 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:27:41.928 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33 - 302 - - 396911.8208ms
+2021-09-15 18:27:41.929 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Index - -
+2021-09-15 18:27:41.931 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:27:41.932 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:27:41.934 -03:00 [INF] passou aqui meo
+2021-09-15 18:27:41.938 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:27:41.940 -03:00 [INF] Executed ViewResult - view Index executed in 3.887ms.
+2021-09-15 18:27:41.941 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 7.3711ms
+2021-09-15 18:27:41.943 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:27:41.944 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Index - - - 200 - text/html;+charset=utf-8 14.8936ms
+2021-09-15 18:29:43.673 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33
+2021-09-15 18:29:43.679 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:29:43.681 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:29:56.320 -03:00 [INF] Executing RedirectResult, redirecting to /Home/Index.
+2021-09-15 18:29:56.323 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 12639.9981ms
+2021-09-15 18:29:56.325 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:29:56.328 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33 - 302 - - 12653.5582ms
+2021-09-15 18:29:56.332 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Index - -
+2021-09-15 18:29:56.333 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:29:56.335 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:30:05.036 -03:00 [INF] passou aqui meo
+2021-09-15 18:30:06.915 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:30:07.226 -03:00 [INF] Executed ViewResult - view Index executed in 345.0766ms.
+2021-09-15 18:30:07.227 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 10890.7331ms
+2021-09-15 18:30:07.229 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:30:07.231 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Index - - - 200 - text/html;+charset=utf-8 10898.9745ms
+2021-09-15 18:32:03.904 -03:00 [INF] Logger funcionado...
+2021-09-15 18:32:03.995 -03:00 [INF] Starting...
+2021-09-15 18:32:04.813 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-15 18:32:05.162 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-15 18:32:05.164 -03:00 [INF] Hosting environment: Development
+2021-09-15 18:32:05.166 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-15 18:32:05.198 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-15 18:32:05.230 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:32:05.273 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-15 18:32:05.277 -03:00 [INF] passou aqui meo
+2021-09-15 18:32:05.320 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:32:05.396 -03:00 [INF] Executed ViewResult - view Index executed in 106.8123ms.
+2021-09-15 18:32:05.400 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 124.9938ms
+2021-09-15 18:32:05.402 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-15 18:32:05.409 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - -
+2021-09-15 18:32:05.409 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - -
+2021-09-15 18:32:05.424 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 228.4208ms
+2021-09-15 18:32:05.426 -03:00 [INF] The file /templates/site/css/styles.css was not modified
+2021-09-15 18:32:05.426 -03:00 [INF] The file /templates/site/js/scripts.js was not modified
+2021-09-15 18:32:05.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - - - 304 - text/css 27.0850ms
+2021-09-15 18:32:05.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - - - 304 - application/javascript 27.0856ms
+2021-09-15 18:32:07.894 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-15 18:32:07.898 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:32:07.902 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:32:07.906 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-15 18:32:07.935 -03:00 [INF] Executed ViewResult - view Index executed in 30.2809ms.
+2021-09-15 18:32:07.937 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 32.8325ms
+2021-09-15 18:32:07.938 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-15 18:32:07.941 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 46.5040ms
+2021-09-15 18:32:07.948 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-09-15 18:32:07.950 -03:00 [INF] The file /templates/admin/vendor/fontawesome-free/css/all.min.css was not modified
+2021-09-15 18:32:07.950 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - -
+2021-09-15 18:32:07.953 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - -
+2021-09-15 18:32:07.954 -03:00 [INF] The file /templates/admin/css/sb-admin-2.min.css was not modified
+2021-09-15 18:32:07.954 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-09-15 18:32:07.958 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 304 - text/css 7.5593ms
+2021-09-15 18:32:07.957 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - -
+2021-09-15 18:32:07.961 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - - - 304 - text/css 10.0524ms
+2021-09-15 18:32:07.965 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - -
+2021-09-15 18:32:07.964 -03:00 [INF] The file /templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js was not modified
+2021-09-15 18:32:07.968 -03:00 [INF] The file /templates/admin/js/sb-admin-2.min.js was not modified
+2021-09-15 18:32:07.969 -03:00 [INF] The file /templates/admin/js/demo/chart-area-demo.js was not modified
+2021-09-15 18:32:07.960 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-09-15 18:32:07.972 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 304 - application/javascript 15.9297ms
+2021-09-15 18:32:07.957 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-09-15 18:32:07.978 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - - - 304 - application/javascript 10.4429ms
+2021-09-15 18:32:07.978 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - - - 304 - application/javascript 19.1946ms
+2021-09-15 18:32:07.979 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/views/login/index.js - -
+2021-09-15 18:32:07.978 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - -
+2021-09-15 18:32:07.978 -03:00 [INF] The file /templates/admin/vendor/chart.js/Chart.min.js was not modified
+2021-09-15 18:32:07.979 -03:00 [INF] The file /templates/admin/vendor/jquery-easing/jquery.easing.min.js was not modified
+2021-09-15 18:32:07.984 -03:00 [INF] The file /templates/admin/js/demo/chart-pie-demo.js was not modified
+2021-09-15 18:32:07.986 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - - - 304 - application/javascript 25.5568ms
+2021-09-15 18:32:07.988 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 304 - application/javascript 30.5403ms
+2021-09-15 18:32:07.989 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - - - 304 - application/javascript 10.5861ms
+2021-09-15 18:32:07.958 -03:00 [INF] The file /templates/admin/vendor/jquery/jquery.min.js was not modified
+2021-09-15 18:32:07.978 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - -
+2021-09-15 18:32:07.994 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - - - 304 - application/javascript 41.5863ms
+2021-09-15 18:32:08.008 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-09-15 18:32:08.008 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-09-15 18:32:08.011 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/HTTPClient.js - - - 200 3256 application/javascript 32.4884ms
+2021-09-15 18:32:08.011 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/views/login/index.js - - - 200 610 application/javascript 32.2717ms
+2021-09-15 18:32:08.570 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admn - -
+2021-09-15 18:32:08.574 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admn - - - 404 - - 4.0685ms
+2021-09-15 18:32:17.044 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33
+2021-09-15 18:32:17.048 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:32:17.058 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-15 18:32:22.614 -03:00 [INF] Executing RedirectResult, redirecting to Admin/Home/Index.
+2021-09-15 18:32:22.616 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 5556.3219ms
+2021-09-15 18:32:22.618 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-09-15 18:32:22.620 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:17466/Admin/Login/Autenticar application/json;+charset=utf-8 33 - 302 - - 5575.0721ms
+2021-09-15 18:32:22.621 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Admin/Login/Admin/Home/Index - -
+2021-09-15 18:32:22.624 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Admin/Login/Admin/Home/Index - - - 404 - - 2.9824ms

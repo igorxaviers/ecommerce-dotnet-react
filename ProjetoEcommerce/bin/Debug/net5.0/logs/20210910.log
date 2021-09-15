@@ -1,0 +1,503 @@
+2021-09-10 20:12:41.049 -03:00 [INF] Logger funcionado...
+2021-09-10 20:12:41.120 -03:00 [INF] Starting...
+2021-09-10 20:13:49.273 -03:00 [INF] Logger funcionado...
+2021-09-10 20:13:49.364 -03:00 [INF] Starting...
+2021-09-10 20:14:38.222 -03:00 [INF] Logger funcionado...
+2021-09-10 20:14:38.320 -03:00 [INF] Starting...
+2021-09-10 20:16:13.859 -03:00 [INF] Logger funcionado...
+2021-09-10 20:16:13.945 -03:00 [INF] Starting...
+2021-09-10 20:16:14.666 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 20:16:15.031 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 20:16:15.034 -03:00 [INF] Hosting environment: Development
+2021-09-10 20:16:15.035 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 20:16:15.071 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:15.097 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:15.136 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:15.140 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:15.184 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:15.293 -03:00 [INF] Executed ViewResult - view Index executed in 138.2036ms.
+2021-09-10 20:16:15.297 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 158.2959ms
+2021-09-10 20:16:15.299 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:15.317 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 247.6918ms
+2021-09-10 20:16:15.851 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:15.854 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:15.856 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:15.857 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:15.859 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:15.862 -03:00 [INF] Executed ViewResult - view Index executed in 3.4381ms.
+2021-09-10 20:16:15.866 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 8.4186ms
+2021-09-10 20:16:15.867 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:15.869 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 18.2130ms
+2021-09-10 20:16:15.892 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-10 20:16:15.910 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-10 20:16:15.912 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 20.0164ms
+2021-09-10 20:16:16.063 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:16.065 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:16.067 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:16.069 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:16.071 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:16.073 -03:00 [INF] Executed ViewResult - view Index executed in 2.5776ms.
+2021-09-10 20:16:16.074 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 5.5726ms
+2021-09-10 20:16:16.076 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:16.078 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 14.5355ms
+2021-09-10 20:16:16.111 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-10 20:16:16.114 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-10 20:16:16.116 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 4.8143ms
+2021-09-10 20:16:16.255 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:16.256 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:16.258 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:16.259 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:16.260 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:16.263 -03:00 [INF] Executed ViewResult - view Index executed in 2.3375ms.
+2021-09-10 20:16:16.265 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 5.6891ms
+2021-09-10 20:16:16.266 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:16.290 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 35.3999ms
+2021-09-10 20:16:16.294 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-10 20:16:16.296 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-10 20:16:16.299 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 4.6105ms
+2021-09-10 20:16:16.505 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:16.506 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:16.508 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:16.509 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:16.510 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:16.513 -03:00 [INF] Executed ViewResult - view Index executed in 2.6154ms.
+2021-09-10 20:16:16.515 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 6.3222ms
+2021-09-10 20:16:16.518 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:16.520 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 15.5220ms
+2021-09-10 20:16:16.744 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Privacy - -
+2021-09-10 20:16:16.748 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Privacy (ProjetoEcommerce)'
+2021-09-10 20:16:16.751 -03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:16.755 -03:00 [INF] Executing ViewResult, running view Privacy.
+2021-09-10 20:16:16.758 -03:00 [INF] Executed ViewResult - view Privacy executed in 5.8898ms.
+2021-09-10 20:16:16.760 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Privacy (ProjetoEcommerce) in 7.6247ms
+2021-09-10 20:16:16.761 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Privacy (ProjetoEcommerce)'
+2021-09-10 20:16:16.763 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Privacy - - - 200 - text/html;+charset=utf-8 19.5897ms
+2021-09-10 20:16:17.072 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:17.074 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:17.076 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:17.077 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:17.079 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:17.082 -03:00 [INF] Executed ViewResult - view Index executed in 3.3209ms.
+2021-09-10 20:16:17.084 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 7.1604ms
+2021-09-10 20:16:17.086 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:17.089 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 17.2906ms
+2021-09-10 20:16:17.344 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:17.347 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:17.348 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:17.350 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:17.351 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:17.353 -03:00 [INF] Executed ViewResult - view Index executed in 1.8007ms.
+2021-09-10 20:16:17.354 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 4.4742ms
+2021-09-10 20:16:17.356 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:17.357 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 12.9931ms
+2021-09-10 20:16:17.673 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Home/Privacy - -
+2021-09-10 20:16:17.675 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Privacy (ProjetoEcommerce)'
+2021-09-10 20:16:17.677 -03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:17.678 -03:00 [INF] Executing ViewResult, running view Privacy.
+2021-09-10 20:16:17.680 -03:00 [INF] Executed ViewResult - view Privacy executed in 1.7828ms.
+2021-09-10 20:16:17.681 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Privacy (ProjetoEcommerce) in 3.0782ms
+2021-09-10 20:16:17.683 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Privacy (ProjetoEcommerce)'
+2021-09-10 20:16:17.685 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Home/Privacy - - - 200 - text/html;+charset=utf-8 11.7644ms
+2021-09-10 20:16:18.040 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:16:18.042 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:18.044 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:16:18.045 -03:00 [INF] passou aqui meo
+2021-09-10 20:16:18.047 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:16:18.049 -03:00 [INF] Executed ViewResult - view Index executed in 2.1228ms.
+2021-09-10 20:16:18.050 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 4.8667ms
+2021-09-10 20:16:18.051 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:16:18.054 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 13.7308ms
+2021-09-10 20:37:33.755 -03:00 [INF] Logger funcionado...
+2021-09-10 20:37:33.861 -03:00 [INF] Starting...
+2021-09-10 20:37:34.860 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 20:37:35.389 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 20:37:35.391 -03:00 [INF] Hosting environment: Development
+2021-09-10 20:37:35.392 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 20:37:35.452 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:37:35.478 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:37:35.532 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:37:35.536 -03:00 [INF] passou aqui meo
+2021-09-10 20:37:35.582 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:37:35.667 -03:00 [INF] Executed ViewResult - view Index executed in 117.1114ms.
+2021-09-10 20:37:35.671 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 136.5041ms
+2021-09-10 20:37:35.675 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:37:35.682 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-09-10 20:37:35.683 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/js/site.js - -
+2021-09-10 20:37:35.686 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/css/site.css - -
+2021-09-10 20:37:35.686 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/jquery/dist/jquery.min.js - -
+2021-09-10 20:37:35.696 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-09-10 20:37:35.730 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/jquery/dist/jquery.min.js - - - 404 - - 37.7288ms
+2021-09-10 20:37:35.730 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 250.4454ms
+2021-09-10 20:37:35.730 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/bootstrap/dist/css/bootstrap.min.css - - - 404 - - 43.1687ms
+2021-09-10 20:37:35.730 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 - - 4.8976ms
+2021-09-10 20:37:35.738 -03:00 [INF] The file /css/site.css was not modified
+2021-09-10 20:37:35.740 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/css/site.css - - - 304 - text/css 55.5179ms
+2021-09-10 20:37:35.749 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-09-10 20:37:35.751 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 - - 2.0702ms
+2021-09-10 20:37:35.763 -03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\js\site.js'
+2021-09-10 20:37:35.765 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/js/site.js - - - 200 230 application/javascript 82.0252ms
+2021-09-10 20:57:49.251 -03:00 [INF] Logger funcionado...
+2021-09-10 20:57:49.359 -03:00 [INF] Starting...
+2021-09-10 20:57:50.348 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 20:57:50.870 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 20:57:50.893 -03:00 [INF] Hosting environment: Development
+2021-09-10 20:57:50.894 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 20:57:50.948 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:57:50.970 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:57:51.019 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:57:51.024 -03:00 [INF] passou aqui meo
+2021-09-10 20:57:51.069 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:57:51.126 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 100.3668ms
+2021-09-10 20:57:51.130 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:57:51.135 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '_Layout' could not be located. The following locations were searched:
+/Views/Home/_Layout.cshtml
+/Views/Shared/_Layout.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 20:57:51.256 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 311.3954ms
+2021-09-10 20:59:10.454 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 20:59:10.458 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:59:10.460 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 20:59:10.462 -03:00 [INF] passou aqui meo
+2021-09-10 20:59:13.447 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 20:59:13.472 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 3010.2985ms
+2021-09-10 20:59:13.473 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 20:59:13.475 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: RenderBody has not been called for the page at '/Views/Shared/_LayoutSite.cshtml'. To ignore call IgnoreBody().
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPage.EnsureRenderedBodyOrSections()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 20:59:13.484 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 3029.4335ms
+2021-09-10 20:59:13.500 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-10 20:59:13.514 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-09-10 20:59:13.517 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 200 5430 image/x-icon 16.8069ms
+2021-09-10 21:00:18.331 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:00:18.333 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:00:18.335 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 21:00:18.339 -03:00 [INF] passou aqui meo
+2021-09-10 21:00:18.340 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 21:00:19.017 -03:00 [INF] Executed ViewResult - view Index executed in 677.0648ms.
+2021-09-10 21:00:19.020 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 680.8178ms
+2021-09-10 21:00:19.021 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:00:19.024 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 692.8602ms
+2021-09-10 21:00:19.032 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - -
+2021-09-10 21:00:19.034 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - -
+2021-09-10 21:00:19.036 -03:00 [INF] Sending file. Request path: '/templates/site/js/scripts.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\site\js\scripts.js'
+2021-09-10 21:00:19.038 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/js/scripts.js - - - 200 330 application/javascript 4.2175ms
+2021-09-10 21:00:19.046 -03:00 [INF] Sending file. Request path: '/templates/site/css/styles.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\site\css\styles.css'
+2021-09-10 21:00:19.052 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/site/css/styles.css - - - 200 206202 text/css 20.1188ms
+2021-09-10 21:00:19.170 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - -
+2021-09-10 21:00:19.173 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/assets/favicon.ico - - - 404 - - 3.0503ms
+2021-09-10 21:14:09.388 -03:00 [INF] Logger funcionado...
+2021-09-10 21:14:09.464 -03:00 [INF] Starting...
+2021-09-10 21:14:10.149 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:14:10.567 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:14:10.569 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:14:10.571 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:14:10.613 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:14:10.642 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)
+ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 21:14:10.733 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 122.2294ms
+2021-09-10 21:14:10.810 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/favicon.ico - -
+2021-09-10 21:14:10.818 -03:00 [INF] The file /favicon.ico was not modified
+2021-09-10 21:14:10.821 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/favicon.ico - - - 304 - image/x-icon 11.0331ms
+2021-09-10 21:20:14.388 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Admin - -
+2021-09-10 21:20:14.396 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Admin - - - 404 - - 7.2402ms
+2021-09-10 21:20:19.004 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Admin/Home - -
+2021-09-10 21:20:19.007 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Admin/Home - - - 404 - - 2.9764ms
+2021-09-10 21:22:32.969 -03:00 [INF] Logger funcionado...
+2021-09-10 21:22:33.040 -03:00 [INF] Starting...
+2021-09-10 21:22:33.714 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:22:34.087 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:22:34.090 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:22:34.092 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:22:34.128 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:22:34.160 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)
+ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 21:22:34.271 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 141.4218ms
+2021-09-10 21:24:50.330 -03:00 [INF] Logger funcionado...
+2021-09-10 21:24:50.418 -03:00 [INF] Starting...
+2021-09-10 21:24:51.232 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:24:58.334 -03:00 [INF] Logger funcionado...
+2021-09-10 21:24:58.428 -03:00 [INF] Starting...
+2021-09-10 21:24:59.199 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:24:59.597 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:24:59.599 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:24:59.600 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:24:59.633 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:24:59.660 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)
+ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 21:24:59.745 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 114.0044ms
+2021-09-10 21:36:16.799 -03:00 [INF] Logger funcionado...
+2021-09-10 21:36:16.878 -03:00 [INF] Starting...
+2021-09-10 21:36:17.557 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:36:17.947 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:36:17.949 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:36:17.950 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:36:17.990 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:36:18.019 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)
+ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 21:36:18.115 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 126.0678ms
+2021-09-10 21:45:45.819 -03:00 [INF] Logger funcionado...
+2021-09-10 21:45:45.917 -03:00 [INF] Starting...
+2021-09-10 21:45:46.682 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:45:47.081 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:45:47.082 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:45:47.083 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:45:47.117 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:45:47.145 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)
+ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 21:45:47.222 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 106.0963ms
+2021-09-10 21:49:09.111 -03:00 [INF] Logger funcionado...
+2021-09-10 21:49:09.205 -03:00 [INF] Starting...
+2021-09-10 21:49:09.869 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:49:10.257 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:49:10.259 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:49:10.261 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:49:10.309 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:49:10.337 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Routing.Matching.AmbiguousMatchException: The request matched multiple endpoints. Matches: 
+
+ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)
+ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ReportAmbiguity(CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.ProcessFinalCandidates(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DefaultEndpointSelector.Select(HttpContext httpContext, CandidateState[] candidateState)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.MatchAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 21:49:10.449 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 500 - text/html;+charset=utf-8 142.6231ms
+2021-09-10 21:50:07.277 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Admin - -
+2021-09-10 21:50:07.319 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Admin - - - 404 - - 46.1718ms
+2021-09-10 21:51:34.800 -03:00 [INF] Logger funcionado...
+2021-09-10 21:51:34.898 -03:00 [INF] Starting...
+2021-09-10 21:51:35.637 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:51:36.005 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:51:36.008 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:51:36.009 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:51:36.055 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:51:36.082 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:51:36.126 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 21:51:36.131 -03:00 [INF] passou aqui meo
+2021-09-10 21:51:36.181 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 21:51:36.262 -03:00 [INF] Executed ViewResult - view Index executed in 116.0692ms.
+2021-09-10 21:51:36.266 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 137.0998ms
+2021-09-10 21:51:36.269 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:51:36.296 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 242.0794ms
+2021-09-10 21:51:43.176 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Admin - -
+2021-09-10 21:51:43.184 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Admin - - - 404 - - 7.4594ms
+2021-09-10 21:51:47.493 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/Admin/Login - -
+2021-09-10 21:51:47.497 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/Admin/Login - - - 404 - - 4.0180ms
+2021-09-10 21:53:36.420 -03:00 [INF] Logger funcionado...
+2021-09-10 21:53:36.551 -03:00 [INF] Starting...
+2021-09-10 21:53:37.251 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:53:37.702 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:53:37.704 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:53:37.705 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:53:37.743 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:53:37.773 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:53:37.826 -03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 21:53:37.830 -03:00 [INF] passou aqui meo
+2021-09-10 21:53:37.870 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 21:53:37.949 -03:00 [INF] Executed ViewResult - view Index executed in 105.2778ms.
+2021-09-10 21:53:37.953 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 124.8686ms
+2021-09-10 21:53:37.957 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:53:37.971 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 229.8053ms
+2021-09-10 21:53:48.559 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-10 21:53:48.566 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 404 - - 6.8260ms
+2021-09-10 21:53:51.967 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin/login - -
+2021-09-10 21:53:51.971 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin/login - - - 404 - - 4.5516ms
+2021-09-10 21:56:48.503 -03:00 [INF] Logger funcionado...
+2021-09-10 21:56:48.609 -03:00 [INF] Starting...
+2021-09-10 21:56:49.412 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:56:49.831 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:56:49.832 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:56:49.834 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:56:49.865 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:56:49.889 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:56:49.925 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 21:56:49.928 -03:00 [INF] passou aqui meo
+2021-09-10 21:56:49.968 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 21:56:50.040 -03:00 [INF] Executed ViewResult - view Index executed in 98.9698ms.
+2021-09-10 21:56:50.043 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 115.9436ms
+2021-09-10 21:56:50.045 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:56:50.058 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 194.4064ms
+2021-09-10 21:56:55.376 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-10 21:56:55.382 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-10 21:56:55.391 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-10 21:56:55.399 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 21:56:55.412 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 18.563ms
+2021-09-10 21:56:55.414 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-10 21:56:55.418 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view '~/Views/Shared/_LayoutAdminLimpo.cshtml' could not be located. The following locations were searched:
+~/Views/Shared/_LayoutAdminLimpo.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-10 21:56:55.481 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 500 - text/html;+charset=utf-8 104.9217ms
+2021-09-10 21:57:43.636 -03:00 [INF] Logger funcionado...
+2021-09-10 21:57:43.729 -03:00 [INF] Starting...
+2021-09-10 21:57:44.432 -03:00 [INF] User profile is available. Using 'C:\Users\Aluno\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-10 21:57:44.825 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-10 21:57:44.826 -03:00 [INF] Hosting environment: Development
+2021-09-10 21:57:44.828 -03:00 [INF] Content root path: D:\ProjetoEcommerce\ProjetoEcommerce
+2021-09-10 21:57:44.864 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/ - -
+2021-09-10 21:57:44.894 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:57:44.943 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-09-10 21:57:44.947 -03:00 [INF] passou aqui meo
+2021-09-10 21:57:44.987 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 21:57:45.067 -03:00 [INF] Executed ViewResult - view Index executed in 106.0237ms.
+2021-09-10 21:57:45.070 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 124.7022ms
+2021-09-10 21:57:45.073 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-09-10 21:57:45.083 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/ - - - 200 - text/html;+charset=utf-8 221.0522ms
+2021-09-10 21:57:51.344 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/admin - -
+2021-09-10 21:57:51.349 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-10 21:57:51.352 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-09-10 21:57:51.358 -03:00 [INF] Executing ViewResult, running view Index.
+2021-09-10 21:57:51.377 -03:00 [INF] Executed ViewResult - view Index executed in 22.6447ms.
+2021-09-10 21:57:51.383 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 28.5553ms
+2021-09-10 21:57:51.384 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-09-10 21:57:51.386 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/admin - - - 200 - text/html;+charset=utf-8 41.9998ms
+2021-09-10 21:57:51.398 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - -
+2021-09-10 21:57:51.398 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-09-10 21:57:51.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-09-10 21:57:51.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - -
+2021-09-10 21:57:51.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - -
+2021-09-10 21:57:51.401 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-09-10 21:57:51.435 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-09-10 21:57:51.435 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-09-10 21:57:51.443 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 41.1069ms
+2021-09-10 21:57:51.443 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/sb-admin-2.min.js - - - 200 1265 application/javascript 41.0808ms
+2021-09-10 21:57:51.445 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-09-10 21:57:51.447 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - -
+2021-09-10 21:57:51.452 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-09-10 21:57:51.453 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-area-demo.js - - - 200 3569 application/javascript 8.3388ms
+2021-09-10 21:57:51.454 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-09-10 21:57:51.455 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-09-10 21:57:51.455 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-09-10 21:57:51.457 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - -
+2021-09-10 21:57:51.457 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-09-10 21:57:51.463 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-09-10 21:57:51.465 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'D:\ProjetoEcommerce\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-09-10 21:57:51.465 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/js/demo/chart-pie-demo.js - - - 200 1057 application/javascript 8.7834ms
+2021-09-10 21:57:51.469 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84378 application/javascript 67.0500ms
+2021-09-10 21:57:51.469 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/jquery/jquery.min.js - - - 200 89501 application/javascript 67.2995ms
+2021-09-10 21:57:51.471 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/css/sb-admin-2.min.css - - - 200 170737 text/css 72.8536ms
+2021-09-10 21:57:51.469 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59344 text/css 70.4625ms
+2021-09-10 21:57:51.476 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:17466/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173077 application/javascript 30.5354ms
