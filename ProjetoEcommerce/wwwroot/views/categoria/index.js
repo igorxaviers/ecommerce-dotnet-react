@@ -7,6 +7,7 @@ var indexCat = {
             nome: forms['nome'].value,
         }
 
+
         HTTPClient.post("Admin/Categoria/Cadastrar", dados)
         .then(resp => {
             return resp.json();
