@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ProjetoEcommerce.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class HomeController : Controller
+    public class ProdutoController : Controller
     {
         public IActionResult Index()
         {

@@ -7,15 +7,12 @@ var indexLogin = {
             senha: forms['senha'].value,
         }
 
-        console.log(dados);
-
         HTTPClient.post("Admin/Login/Autenticar", dados)
         .then(resp => {
-            console.log(resp.json());
             return resp.json();
         })
         .then(resp => {
-            alert(resp.msg);
+            window.location.href = resp.url;
         })
         .catch((e) => {
             console.log("Deu erro.", e);

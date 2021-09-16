@@ -18,19 +18,25 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
         public IActionResult Autenticar([FromBody] System.Text.Json.JsonElement dados)
         {
             Models.Usuario u = new Models.Usuario();
+
             u.Login = dados.GetProperty("login").GetString();
             u.Senha = dados.GetProperty("senha").GetString();
+
+            string msg = "";
+            string url = "";            
 
             Services.UsuarioService us = new Services.UsuarioService();
             if(us.ValidaUsuario(u))
             {
-                ViewBag.Msg = "BEM-VINDO";
-                return Redirect("/Admin/Home/Index");
+                url = "/Admin/Home";
+                msg = "Bem vindo";
+                return Json(new {msg, url });
             }
             else
             {
-                ViewBag.Msg = "Dados inválidos";
-                return View("~/Views/Login/Index.cshtml");
+                url = "/Admin/Login";
+                msg = "Dados inválidos";
+                return Json(new { msg, url });
             }
         }
     }

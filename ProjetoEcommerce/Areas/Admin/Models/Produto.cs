@@ -11,6 +11,6 @@ namespace ProjetoEcommerce.Areas.Admin.Models
         public string Nome { get; set; }
         public double Preco { get; set; }
         public int Estoque { get; set; }
-        public Categoria Categoria{ get; set; }
+        public string Categoria{ get; set; }
     }
 }

@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetoEcommerce\\ProjetoEcommerce\\ProjetoEcommerce.csproj": {}
+    "C:\\Users\\Carlos\\Desktop\\6ºTermo\\LPI\\Ecommerce-igor\\ProjetoEcommerce\\ProjetoEcommerce.csproj": {}
   },
   "projects": {
-    "D:\\ProjetoEcommerce\\ProjetoEcommerce\\ProjetoEcommerce.csproj": {
+    "C:\\Users\\Carlos\\Desktop\\6ºTermo\\LPI\\Ecommerce-igor\\ProjetoEcommerce\\ProjetoEcommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetoEcommerce\\ProjetoEcommerce\\ProjetoEcommerce.csproj",
+        "projectUniqueName": "C:\\Users\\Carlos\\Desktop\\6ºTermo\\LPI\\Ecommerce-igor\\ProjetoEcommerce\\ProjetoEcommerce.csproj",
         "projectName": "ProjetoEcommerce",
-        "projectPath": "D:\\ProjetoEcommerce\\ProjetoEcommerce\\ProjetoEcommerce.csproj",
-        "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetoEcommerce\\ProjetoEcommerce\\obj\\",
+        "projectPath": "C:\\Users\\Carlos\\Desktop\\6ºTermo\\LPI\\Ecommerce-igor\\ProjetoEcommerce\\ProjetoEcommerce.csproj",
+        "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carlos\\Desktop\\6ºTermo\\LPI\\Ecommerce-igor\\ProjetoEcommerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +47,10 @@
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Serilog": {
               "target": "Package",
@@ -94,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
