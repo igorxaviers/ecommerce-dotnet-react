@@ -777,3 +777,4 @@ C:\Users\Carlos\Desktop\6ºTermo\LPI\Ecommerce-igor\ProjetoEcommerce\bin\Debug\n
 C:\Users\Carlos\Desktop\6ºTermo\LPI\Ecommerce-igor\ProjetoEcommerce\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Carlos\Desktop\6ºTermo\LPI\Ecommerce-igor\ProjetoEcommerce\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Carlos\Desktop\6ºTermo\LPI\Ecommerce-igor\ProjetoEcommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Categoria\Index.cshtml.g.cs
+C:\Users\Carlos\Desktop\6ºTermo\LPI\Ecommerce-igor\ProjetoEcommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Produto\Index.cshtml.g.cs

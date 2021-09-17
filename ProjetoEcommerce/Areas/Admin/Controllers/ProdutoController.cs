@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ProjetoEcommerce.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class HomeController : Controller
+    public class ProdutoController : Controller
     {
         public IActionResult Index()
         {
@@ -17,30 +17,59 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Cadastrar([FromBody] System.Text.Json.JsonElement dados)
         {
+            string msg = "";
+            string url = "";
+            Boolean ok = true;
+            string precoValida, estoqueValida;
+            decimal preco;
+            int estoque;
             Models.Produto p = new Models.Produto();
 
             p.Id = dados.GetProperty("id").GetInt32();
             p.Nome = dados.GetProperty("nome").GetString();
-            p.Preco = dados.GetProperty("preco").GetDouble();
-            p.Estoque = dados.GetProperty("estoque").GetInt32();
+            precoValida = dados.GetProperty("preco").GetString();
+            estoqueValida = dados.GetProperty("estoque").GetString();
             p.Categoria = dados.GetProperty("categoria").GetString();
 
-            string msg = "";
-            string url = "";
-
-            Services.CategoriaService cs = new Services.CategoriaService();
-            if (cs.ValidaCategoria(p))
+            decimal.TryParse(precoValida, out preco);
+            if (preco <= 0)
             {
-                url = "/Admin/Categoria/";
-                msg = "Categoria cadastrada";
-                return Json(new { msg, url });
+                msg = "Preço inválido";
+                ok = false;
             }
             else
+                p.Preco = preco;
+
+            int.TryParse(estoqueValida, out estoque);
+            if (estoque <= 0)
             {
-                url = "/Admin/Categoria";
-                msg = "Categoria não cadastrada, dados inválidos";
-                return Json(new { msg, url });
+                msg = "Estoque inválido";
+                ok = false;
             }
+            else
+                p.Estoque = estoque;
+
+            if (String.IsNullOrEmpty(p.Nome))
+            {
+                msg = "Nome inválido";
+                ok = false;
+            }
+
+            if (String.IsNullOrEmpty(p.Categoria))
+            {
+                msg = "Nenhuma categoria selecionada";
+                ok = false;
+            }
+
+            if (ok)
+            {
+                url = "/Admin/Produto";
+                msg = "Categoria cadastrada";
+            }
+            else
+                url = "";
+
+            return Json(new { msg, url, ok, p });
         }
     }
 }

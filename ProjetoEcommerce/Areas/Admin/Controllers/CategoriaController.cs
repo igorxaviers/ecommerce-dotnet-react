@@ -25,19 +25,17 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
             string msg = "";
             string url = "";
 
-            Services.CategoriaService cs = new Services.CategoriaService();
-            if (cs.ValidaCategoria(c))
+            if (!String.IsNullOrEmpty(c.Nome))
             {
                 url = "/Admin/Categoria/";
                 msg = "Categoria cadastrada";
-                return Json(new { msg, url });
             }
             else
             {
                 url = "/Admin/Categoria";
                 msg = "Categoria não cadastrada, dados inválidos";
-                return Json(new { msg, url });
             }
+            return Json(new { msg, url });
         }
     }
 }
