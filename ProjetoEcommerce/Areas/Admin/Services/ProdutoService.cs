@@ -7,10 +7,14 @@ namespace ProjetoEcommerce.Areas.Admin.Services
 {
     public class ProdutoService
     {
-        public bool ValidaProduto(Models.Produto produto)
+        public (bool, List<string>) ValidaProduto(Models.Produto produto)
         {
+            bool ok = true;
+            List<string> erros = new List<string>();
+            decimal precoValida = produto.Preco, preco;
+            int estoqueValida, estoque;
 
-            return true;
+            return (ok, erros);
         }
     }
 }

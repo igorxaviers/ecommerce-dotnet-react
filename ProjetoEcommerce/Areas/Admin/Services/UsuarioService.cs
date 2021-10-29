@@ -9,9 +9,12 @@ namespace ProjetoEcommerce.Areas.Admin.Services
     {
         const string LOGIN_ADMIN = "admin";
         const string SENHA_ADMIN = "admin";
-        public bool ValidaUsuario(Models.Usuario usuario)
+        public (bool, string) ValidaUsuario(Models.Usuario usuario)
         {
-            return usuario.Login == LOGIN_ADMIN && usuario.Senha == SENHA_ADMIN;            
+            if (usuario.Login == LOGIN_ADMIN && usuario.Senha == SENHA_ADMIN)
+                return (true, "Usuário encontrado");
+            else
+                return (false, "Dados inválidos");
         }
     }
 }

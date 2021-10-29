@@ -17,9 +17,10 @@ var indexProd = {
             return resp.json();
         })
         .then(resp => {
+            console.log(resp);
             if(resp.url)
                 window.location.href = resp.url;
-            alert(resp.msg, resp);
+            alert(resp.mensagem, resp);
         })
         .catch((e) => {
             console.log("Deu erro.", e);

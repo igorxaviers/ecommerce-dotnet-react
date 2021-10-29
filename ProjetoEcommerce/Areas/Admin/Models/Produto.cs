@@ -12,5 +12,24 @@ namespace ProjetoEcommerce.Areas.Admin.Models
         public decimal Preco { get; set; }
         public int Estoque { get; set; }
         public string Categoria{ get; set; }
+
+        public (bool, string) Validar()
+        {
+            if (this.Nome == null || this.Nome.Length < 3)
+            {
+                return (false, "Nome inválido");
+            }
+
+            if (this.Preco <= 0)
+            {
+                return (false, "Preço inválido");
+            }
+
+            if (this.Estoque <= 0)
+            {
+                return (false, "Estoque inválido");
+            }
+            return (true, null);
+        }
     }
 }

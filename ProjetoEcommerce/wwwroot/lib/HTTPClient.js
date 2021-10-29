@@ -1,5 +1,6 @@
 ﻿
-let baseURL = "http://localhost:17466/";
+
+let baseURL = "http://localhost:5000/";
 
 var HTTPClient = {
 
@@ -112,3 +113,5 @@ var HTTPClient = {
     },
  
 }
+
+export default HTTPClient;

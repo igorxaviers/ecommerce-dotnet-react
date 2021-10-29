@@ -12,10 +12,11 @@ var indexLogin = {
             return resp.json();
         })
         .then(resp => {
-            window.location.href = resp.url;
+            document.getElementById('msg').innerHTML = resp.msg;
         })
         .catch((e) => {
             console.log("Deu erro.", e);
+            document.getElementById('msg').innerHTML = "Erro";
         });
     },
     cadastro:{}

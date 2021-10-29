@@ -17,59 +17,38 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Cadastrar([FromBody] System.Text.Json.JsonElement dados)
         {
-            string msg = "";
-            string url = "";
+            string mensagem = "";
             Boolean ok = true;
             string precoValida, estoqueValida;
             decimal preco;
             int estoque;
+            string url = "";
             Models.Produto p = new Models.Produto();
+            // Services.ProdutoService ps = new Services.ProdutoService();
 
             p.Id = dados.GetProperty("id").GetInt32();
             p.Nome = dados.GetProperty("nome").GetString();
+            p.Categoria = dados.GetProperty("categoria").GetString();
             precoValida = dados.GetProperty("preco").GetString();
             estoqueValida = dados.GetProperty("estoque").GetString();
-            p.Categoria = dados.GetProperty("categoria").GetString();
 
             decimal.TryParse(precoValida, out preco);
-            if (preco <= 0)
-            {
-                msg = "Preço inválido";
-                ok = false;
-            }
-            else
-                p.Preco = preco;
+            p.Preco = preco;
 
             int.TryParse(estoqueValida, out estoque);
-            if (estoque <= 0)
-            {
-                msg = "Estoque inválido";
-                ok = false;
-            }
-            else
-                p.Estoque = estoque;
+            p.Estoque = estoque;
 
-            if (String.IsNullOrEmpty(p.Nome))
-            {
-                msg = "Nome inválido";
-                ok = false;
-            }
-
-            if (String.IsNullOrEmpty(p.Categoria))
-            {
-                msg = "Nenhuma categoria selecionada";
-                ok = false;
-            }
+            (ok, mensagem) = p.Validar();
 
             if (ok)
             {
+                mensagem = "Produto cadastrado com sucesso";
                 url = "/Admin/Produto";
-                msg = "Categoria cadastrada";
             }
             else
                 url = "";
 
-            return Json(new { msg, url, ok, p });
+            return Json(new { mensagem, url, ok, p });
         }
     }
 }

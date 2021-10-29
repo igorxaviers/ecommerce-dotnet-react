@@ -6,19 +6,18 @@ var indexCat = {
             id: 0,
             nome: forms['nome'].value,
         }
-
+        console.log(dados);
 
         HTTPClient.post("Admin/Categoria/Cadastrar", dados)
         .then(resp => {
             return resp.json();
         })
         .then(resp => {
-            window.location.href = resp.url;
-            alert(resp.msg);
+            console.log(resp);
+            alert(resp.mensagem);
         })
         .catch((e) => {
             console.log("Deu erro.", e);
         });
-    },
-    cadastro:{}
+    }
 }

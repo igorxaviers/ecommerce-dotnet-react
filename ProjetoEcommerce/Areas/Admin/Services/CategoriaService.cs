@@ -7,9 +7,16 @@ namespace ProjetoEcommerce.Areas.Admin.Services
 {
     public class CategoriaService
     {
-        public bool ValidaCategoria(Models.Categoria categoria)
+        public (bool valido, List<string> erros) ValidaCategoria(Models.Categoria categoria)
         {
-            return !String.IsNullOrEmpty(categoria.Nome);
+            bool valido = true;
+            List<string> erros = new List<string>();
+            if(String.IsNullOrEmpty(categoria.Nome))
+            {
+                erros.Add("Nome vazio");
+                valido = false;
+            }
+            return (valido, erros);
         }
     }
 }

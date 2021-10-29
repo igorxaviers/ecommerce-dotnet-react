@@ -1,0 +1,234 @@
+2021-10-26 18:29:57.200 -03:00 [INF] Logger funcionado...
+2021-10-26 18:29:57.267 -03:00 [INF] Starting...
+2021-10-26 18:29:57.887 -03:00 [INF] User profile is available. Using 'C:\Users\igorr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-26 18:29:58.849 -03:00 [INF] Now listening on: http://localhost:5000
+2021-10-26 18:29:58.849 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-26 18:29:58.849 -03:00 [INF] Hosting environment: Development
+2021-10-26 18:29:58.849 -03:00 [INF] Content root path: C:\projetos\ecommerce-drive\ProjetoEcommerce
+2021-10-26 18:29:59.094 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-10-26 18:29:59.147 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-26 18:29:59.195 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-10-26 18:29:59.198 -03:00 [INF] passou aqui meo
+2021-10-26 18:29:59.245 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:29:59.315 -03:00 [INF] Executed ViewResult - view Index executed in 102.4937ms.
+2021-10-26 18:29:59.316 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 119.9164ms
+2021-10-26 18:29:59.316 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-26 18:29:59.319 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - text/html;+charset=utf-8 227.8751ms
+2021-10-26 18:29:59.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/site/css/styles.css - -
+2021-10-26 18:29:59.382 -03:00 [INF] Sending file. Request path: '/templates/site/css/styles.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\site\css\styles.css'
+2021-10-26 18:29:59.383 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/site/css/styles.css - - - 200 217476 text/css 43.9334ms
+2021-10-26 18:29:59.387 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/site/js/scripts.js - -
+2021-10-26 18:29:59.401 -03:00 [INF] Sending file. Request path: '/templates/site/js/scripts.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\site\js\scripts.js'
+2021-10-26 18:29:59.402 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/site/js/scripts.js - - - 200 336 application/javascript 14.7182ms
+2021-10-26 18:29:59.656 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/assets/favicon.ico - -
+2021-10-26 18:29:59.658 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/assets/favicon.ico - - - 404 0 - 1.8797ms
+2021-10-26 18:30:13.775 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-26 18:30:13.776 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:13.777 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-26 18:30:13.780 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:30:13.905 -03:00 [INF] Executed ViewResult - view Index executed in 126.8898ms.
+2021-10-26 18:30:13.905 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 127.6326ms
+2021-10-26 18:30:13.905 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:13.905 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 130.6668ms
+2021-10-26 18:30:13.933 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-10-26 18:30:13.936 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - -
+2021-10-26 18:30:13.937 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - -
+2021-10-26 18:30:13.937 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-10-26 18:30:13.937 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-10-26 18:30:13.937 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - -
+2021-10-26 18:30:13.946 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-10-26 18:30:13.946 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59348 text/css 13.4129ms
+2021-10-26 18:30:13.947 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-10-26 18:30:13.951 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-10-26 18:30:13.951 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - - - 200 1271 application/javascript 14.1002ms
+2021-10-26 18:30:13.954 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - -
+2021-10-26 18:30:13.959 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-10-26 18:30:13.959 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - - - 200 170746 text/css 22.7410ms
+2021-10-26 18:30:13.960 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - -
+2021-10-26 18:30:13.964 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-10-26 18:30:13.965 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 28.1124ms
+2021-10-26 18:30:13.966 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-26 18:30:13.975 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-10-26 18:30:13.975 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - - - 200 3687 application/javascript 21.4235ms
+2021-10-26 18:30:13.976 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-10-26 18:30:13.976 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - - - 200 1092 application/javascript 15.9238ms
+2021-10-26 18:30:13.977 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/views/login/index.js - -
+2021-10-26 18:30:13.990 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-10-26 18:30:13.991 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 200 3256 application/javascript 24.8085ms
+2021-10-26 18:30:13.991 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-10-26 18:30:13.991 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/views/login/index.js - - - 200 646 application/javascript 14.4852ms
+2021-10-26 18:30:14.008 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-10-26 18:30:14.008 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84384 application/javascript 71.4639ms
+2021-10-26 18:30:14.010 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-10-26 18:30:14.010 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - - - 200 89503 application/javascript 73.4914ms
+2021-10-26 18:30:14.025 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-10-26 18:30:14.025 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173084 application/javascript 77.8415ms
+2021-10-26 18:30:14.240 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2021-10-26 18:30:14.247 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-10-26 18:30:14.247 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 200 5430 image/x-icon 6.7894ms
+2021-10-26 18:30:18.051 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Admin/Login/Autenticar application/x-www-form-urlencoded 23
+2021-10-26 18:30:18.051 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-26 18:30:18.052 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-26 18:30:18.058 -03:00 [INF] Executing RedirectResult, redirecting to /Admin/Home.
+2021-10-26 18:30:18.058 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 5.9007ms
+2021-10-26 18:30:18.058 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-26 18:30:18.059 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Admin/Login/Autenticar application/x-www-form-urlencoded 23 - 302 0 - 8.0563ms
+2021-10-26 18:30:18.061 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Home - -
+2021-10-26 18:30:18.062 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:18.063 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.HomeController (ProjetoEcommerce).
+2021-10-26 18:30:18.064 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:30:18.083 -03:00 [INF] Executed ViewResult - view Index executed in 20.168ms.
+2021-10-26 18:30:18.084 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce) in 20.7355ms
+2021-10-26 18:30:18.084 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:18.084 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Home - - - 200 - text/html;+charset=utf-8 23.0156ms
+2021-10-26 18:30:18.108 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.css - -
+2021-10-26 18:30:18.118 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.css'
+2021-10-26 18:30:18.119 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.css - - - 200 222438 text/css 10.2056ms
+2021-10-26 18:30:18.126 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:30:18.126 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:30:18.126 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.2078ms
+2021-10-26 18:30:18.126 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.4029ms
+2021-10-26 18:30:18.127 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:30:18.127 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:30:18.127 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.2436ms
+2021-10-26 18:30:18.127 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.2387ms
+2021-10-26 18:30:18.211 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 - -
+2021-10-26 18:30:18.221 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\webfonts\fa-solid-900.woff2'
+2021-10-26 18:30:18.221 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 - - - 200 78196 font/woff2 10.2849ms
+2021-10-26 18:30:19.748 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Produto - -
+2021-10-26 18:30:19.748 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:19.749 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Produto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController (ProjetoEcommerce).
+2021-10-26 18:30:19.751 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:30:19.756 -03:00 [INF] Executed ViewResult - view Index executed in 6.1294ms.
+2021-10-26 18:30:19.756 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce) in 6.6555ms
+2021-10-26 18:30:19.756 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:19.756 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Produto - - - 200 - text/html;+charset=utf-8 8.1964ms
+2021-10-26 18:30:19.796 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/views/produto/index.js - -
+2021-10-26 18:30:19.796 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:30:19.796 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.2146ms
+2021-10-26 18:30:19.797 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:30:19.797 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:30:19.797 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:30:19.797 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.3279ms
+2021-10-26 18:30:19.797 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.2269ms
+2021-10-26 18:30:19.797 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.1651ms
+2021-10-26 18:30:19.807 -03:00 [INF] Sending file. Request path: '/views/produto/index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\views\produto\index.js'
+2021-10-26 18:30:19.807 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/views/produto/index.js - - - 200 778 application/javascript 11.5498ms
+2021-10-26 18:30:29.983 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-26 18:30:30.019 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-26 18:30:30.019 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 36.0738ms
+2021-10-26 18:30:57.982 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Categoria - -
+2021-10-26 18:30:57.982 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:57.983 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Categoria"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController (ProjetoEcommerce).
+2021-10-26 18:30:57.985 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:30:57.990 -03:00 [INF] Executed ViewResult - view Index executed in 6.676ms.
+2021-10-26 18:30:57.991 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce) in 7.2771ms
+2021-10-26 18:30:57.991 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:30:57.991 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Categoria - - - 200 - text/html;+charset=utf-8 8.8476ms
+2021-10-26 18:30:58.068 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/views/categoria/index.js - -
+2021-10-26 18:30:58.069 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:30:58.070 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3790ms
+2021-10-26 18:30:58.070 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:30:58.071 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.4658ms
+2021-10-26 18:30:58.071 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:30:58.071 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:30:58.071 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.2038ms
+2021-10-26 18:30:58.071 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.1618ms
+2021-10-26 18:30:58.080 -03:00 [INF] Sending file. Request path: '/views/categoria/index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\views\categoria\index.js'
+2021-10-26 18:30:58.081 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/views/categoria/index.js - - - 200 545 application/javascript 13.0419ms
+2021-10-26 18:31:00.203 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Categoria - -
+2021-10-26 18:31:00.203 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:00.204 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Categoria"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController (ProjetoEcommerce).
+2021-10-26 18:31:00.204 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:31:00.204 -03:00 [INF] Executed ViewResult - view Index executed in 0.6912ms.
+2021-10-26 18:31:00.205 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce) in 0.9131ms
+2021-10-26 18:31:00.205 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:00.205 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Categoria - - - 200 - text/html;+charset=utf-8 1.7493ms
+2021-10-26 18:31:00.244 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:31:00.244 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:31:00.245 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3637ms
+2021-10-26 18:31:00.245 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.3236ms
+2021-10-26 18:31:00.245 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:31:00.245 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.3918ms
+2021-10-26 18:31:00.246 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:31:00.246 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.2373ms
+2021-10-26 18:31:01.269 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Produto - -
+2021-10-26 18:31:01.269 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:01.269 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Produto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController (ProjetoEcommerce).
+2021-10-26 18:31:01.269 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:31:01.270 -03:00 [INF] Executed ViewResult - view Index executed in 0.4519ms.
+2021-10-26 18:31:01.270 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce) in 0.6338ms
+2021-10-26 18:31:01.270 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:01.270 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Produto - - - 200 - text/html;+charset=utf-8 1.2329ms
+2021-10-26 18:31:01.313 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:31:01.313 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3377ms
+2021-10-26 18:31:01.314 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:31:01.314 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.1763ms
+2021-10-26 18:31:01.314 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:31:01.314 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:31:01.314 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.1623ms
+2021-10-26 18:31:01.314 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.1505ms
+2021-10-26 18:31:02.038 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Categoria - -
+2021-10-26 18:31:02.038 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:02.038 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Categoria"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController (ProjetoEcommerce).
+2021-10-26 18:31:02.038 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:31:02.039 -03:00 [INF] Executed ViewResult - view Index executed in 0.5058ms.
+2021-10-26 18:31:02.039 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce) in 0.7081ms
+2021-10-26 18:31:02.039 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:02.039 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Categoria - - - 200 - text/html;+charset=utf-8 1.2781ms
+2021-10-26 18:31:02.081 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:31:02.081 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3822ms
+2021-10-26 18:31:02.081 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:31:02.082 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.1938ms
+2021-10-26 18:31:02.082 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:31:02.082 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.2066ms
+2021-10-26 18:31:02.082 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:31:02.082 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.4269ms
+2021-10-26 18:31:02.835 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Produto - -
+2021-10-26 18:31:02.835 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:02.836 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Produto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController (ProjetoEcommerce).
+2021-10-26 18:31:02.836 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:31:02.836 -03:00 [INF] Executed ViewResult - view Index executed in 0.323ms.
+2021-10-26 18:31:02.836 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce) in 0.4598ms
+2021-10-26 18:31:02.836 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:02.836 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Produto - - - 200 - text/html;+charset=utf-8 1.0555ms
+2021-10-26 18:31:02.878 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:31:02.878 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3877ms
+2021-10-26 18:31:02.878 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:31:02.878 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.2870ms
+2021-10-26 18:31:02.879 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:31:02.879 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:31:02.879 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.2726ms
+2021-10-26 18:31:02.879 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.3799ms
+2021-10-26 18:31:04.952 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Categoria - -
+2021-10-26 18:31:04.952 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:04.952 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Categoria"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController (ProjetoEcommerce).
+2021-10-26 18:31:04.953 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:31:04.953 -03:00 [INF] Executed ViewResult - view Index executed in 0.35ms.
+2021-10-26 18:31:04.953 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce) in 0.5152ms
+2021-10-26 18:31:04.953 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.CategoriaController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:04.953 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Categoria - - - 200 - text/html;+charset=utf-8 1.2378ms
+2021-10-26 18:31:04.995 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:31:04.996 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3241ms
+2021-10-26 18:31:04.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:31:04.996 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.2154ms
+2021-10-26 18:31:04.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:31:04.996 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:31:04.996 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.2446ms
+2021-10-26 18:31:04.997 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.3466ms
+2021-10-26 18:31:05.383 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Produto - -
+2021-10-26 18:31:05.383 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:05.384 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Produto"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController (ProjetoEcommerce).
+2021-10-26 18:31:05.384 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-26 18:31:05.384 -03:00 [INF] Executed ViewResult - view Index executed in 0.3851ms.
+2021-10-26 18:31:05.384 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce) in 0.5323ms
+2021-10-26 18:31:05.384 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.ProdutoController.Index (ProjetoEcommerce)'
+2021-10-26 18:31:05.384 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Produto - - - 200 - text/html;+charset=utf-8 1.1424ms
+2021-10-26 18:31:05.412 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-26 18:31:05.412 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-26 18:31:05.412 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.2782ms
+2021-10-26 18:31:05.412 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3387ms
+2021-10-26 18:31:05.431 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-26 18:31:05.431 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-26 18:31:05.432 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.3952ms
+2021-10-26 18:31:05.432 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.4276ms

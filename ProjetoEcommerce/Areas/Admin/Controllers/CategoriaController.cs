@@ -17,25 +17,19 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Cadastrar([FromBody] System.Text.Json.JsonElement dados)
         {
-            Models.Categoria c = new Models.Categoria();
-
-            c.Id = dados.GetProperty("id").GetInt32();
-            c.Nome = dados.GetProperty("nome").GetString();
-
-            string msg = "";
-            string url = "";
-
-            if (!String.IsNullOrEmpty(c.Nome))
+            bool ok;
+            string mensagem;
+            string nome = dados.GetProperty("nome").GetString();
+            
+            //Services.CategoriaService cs = new Services.CategoriaService();
+            Models.Categoria c = new Models.Categoria(0, nome);
+            
+            (ok, mensagem) = c.Validar();
+            if (ok)
             {
-                url = "/Admin/Categoria/";
-                msg = "Categoria cadastrada";
+                mensagem = "Categoria cadastrada com sucesso"; 
             }
-            else
-            {
-                url = "/Admin/Categoria";
-                msg = "Categoria não cadastrada, dados inválidos";
-            }
-            return Json(new { msg, url });
+            return Json(new { ok, mensagem });
         }
     }
 }
