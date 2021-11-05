@@ -110,8 +110,5 @@ var HTTPClient = {
         };
         let p = fetch(baseURL + action, config);
         return p;
-    },
- 
+    }
 }
-
-export default HTTPClient;

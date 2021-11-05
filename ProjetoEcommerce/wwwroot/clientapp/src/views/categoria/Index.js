@@ -1,26 +1,46 @@
 import React from 'react';
-class CadastroCategoria extends Component {
+import ReactDom from 'react-dom';
+import axios from 'axios';
+import {toast, ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+class CadastroCategoria extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            id: null,
-            nome: ''
-         }
+            nome: '',
+        }
     }
 
+    // isValid = () => {
+    //     for (let key in this.state) {
+    //         if (this.state[key] === '') {
+    //             return false;
+    //         }
+    //     }
+    // }
+
     cadastrar = () => {
-        const dados = {
+        // if(this.isValid()) {
+
+        // }
+        const categoria = {
             nome: this.state.nome
         }
-        axios.post('/admin/categoria/cadastrar', dados)
-        .then(response => {
-            console.log(response.data);
-            if (response.data.ok) 
-                window.location.href = response.data.url;
+        axios.post('Categoria/Cadastrar', categoria)
+        .then(res => {
+            console.log(res.data);
+            if (res.data.ok) 
+            {
+                toast.success(res.data.mensagem, {
+                    position: "bottom-right",
+                    theme: "colored"
+                });
+            }
             else 
             {
-                this.setState({
-                    erro: response.data.mensagem
+                toast.error(res.data.mensagem, {
+                    position: "bottom-right",
+                    theme: "colored"
                 });
             }
         })
@@ -49,7 +69,7 @@ class CadastroCategoria extends Component {
                                             type="text" 
                                             className="form-control" 
                                             placeholder="Nome"
-                                            value={this.state.nome}
+                                            value={this.state.categoria.nome}
                                             onChange={(e)=>this.setState({nome: e.target.value})}/>
                                     </div>
                                     <button 
@@ -64,9 +84,12 @@ class CadastroCategoria extends Component {
                     </div>
                 </div>
             </div>
+            <ToastContainer/>
         </>;
         return (saida);
     }
 }
  
 export default CadastroCategoria;
+
+ReactDom.render(<CadastroCategoria/>, document.getElementById("root"));

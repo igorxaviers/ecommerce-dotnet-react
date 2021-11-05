@@ -1607,3 +1607,15 @@ C:\projetos\ecommerce-drive\ProjetoEcommerce\obj\Debug\net5.0\ProjetoEcommerce.V
 C:\projetos\ecommerce-drive\ProjetoEcommerce\obj\Debug\net5.0\ProjetoEcommerce.csproj.CopyComplete
 C:\projetos\ecommerce-drive\ProjetoEcommerce\obj\Debug\net5.0\ProjetoEcommerce.genruntimeconfig.cache
 C:\projetos\ecommerce-drive\ProjetoEcommerce\obj\Debug\net5.0\Razor\Areas\Admin\Views\Todo\Index.cshtml.g.cs
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\package.json
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\Google.Protobuf.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\MySql.Data.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\ZstdNet.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\projetos\ecommerce-drive\ProjetoEcommerce\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

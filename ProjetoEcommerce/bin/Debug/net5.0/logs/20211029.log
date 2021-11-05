@@ -3067,3 +3067,716 @@ System.InvalidOperationException: Incorrect Content-Type: application/json
 2021-10-29 17:31:32.515 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 39.476ms
 2021-10-29 17:31:32.515 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
 2021-10-29 17:31:32.515 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 49 - 200 - application/json;+charset=utf-8 41.8613ms
+2021-10-29 17:33:29.372 -03:00 [INF] Logger funcionado...
+2021-10-29 17:33:29.432 -03:00 [INF] Starting...
+2021-10-29 17:33:29.639 -03:00 [INF] User profile is available. Using 'C:\Users\igorr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-29 17:33:29.932 -03:00 [INF] Now listening on: http://localhost:5000
+2021-10-29 17:33:29.932 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-29 17:33:29.932 -03:00 [INF] Hosting environment: Development
+2021-10-29 17:33:29.932 -03:00 [INF] Content root path: C:\projetos\ecommerce-drive\ProjetoEcommerce
+2021-10-29 17:33:30.221 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-10-29 17:33:30.256 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-29 17:33:30.291 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-10-29 17:33:30.293 -03:00 [INF] passou aqui meo
+2021-10-29 17:33:30.331 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:33:30.389 -03:00 [INF] Executed ViewResult - view Index executed in 82.8708ms.
+2021-10-29 17:33:30.390 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 97.9213ms
+2021-10-29 17:33:30.390 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-29 17:33:30.393 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - text/html;+charset=utf-8 174.0128ms
+2021-10-29 17:33:31.666 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 49
+2021-10-29 17:33:31.667 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:33:31.676 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:33:31.697 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:33:31.720 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 43.7839ms
+2021-10-29 17:33:31.721 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:33:31.721 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 49 - 200 - application/json;+charset=utf-8 55.3749ms
+2021-10-29 17:34:12.371 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.b8fb022fd47acbf21696.hot-update.json - -
+2021-10-29 17:34:12.383 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.b8fb022fd47acbf21696.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.b8fb022fd47acbf21696.hot-update.json'
+2021-10-29 17:34:12.383 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.b8fb022fd47acbf21696.hot-update.json - - - 200 35 application/json 12.2627ms
+2021-10-29 17:34:12.386 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.b8fb022fd47acbf21696.hot-update.js - -
+2021-10-29 17:34:12.410 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.b8fb022fd47acbf21696.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.b8fb022fd47acbf21696.hot-update.js'
+2021-10-29 17:34:12.411 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.b8fb022fd47acbf21696.hot-update.js - - - 200 8721 application/javascript 24.5773ms
+2021-10-29 17:34:12.418 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:34:12.419 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:12.420 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:34:12.425 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:34:12.447 -03:00 [INF] Executed ViewResult - view Index executed in 26.6828ms.
+2021-10-29 17:34:12.448 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 27.2312ms
+2021-10-29 17:34:12.448 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:12.448 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 29.8285ms
+2021-10-29 17:34:12.555 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:34:12.557 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-10-29 17:34:12.557 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 304 - application/javascript 2.1365ms
+2021-10-29 17:34:12.572 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:34:12.599 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:34:12.600 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335354 application/javascript 27.1567ms
+2021-10-29 17:34:31.527 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.6475ece2f9f6542b10c2.hot-update.json - -
+2021-10-29 17:34:31.528 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.6475ece2f9f6542b10c2.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.6475ece2f9f6542b10c2.hot-update.json'
+2021-10-29 17:34:31.529 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.6475ece2f9f6542b10c2.hot-update.json - - - 200 35 application/json 2.0877ms
+2021-10-29 17:34:31.533 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.6475ece2f9f6542b10c2.hot-update.js - -
+2021-10-29 17:34:31.549 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.6475ece2f9f6542b10c2.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.6475ece2f9f6542b10c2.hot-update.js'
+2021-10-29 17:34:31.549 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.6475ece2f9f6542b10c2.hot-update.js - - - 200 8727 application/javascript 16.2658ms
+2021-10-29 17:34:31.556 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:34:31.556 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:31.557 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:34:31.557 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:34:31.558 -03:00 [INF] Executed ViewResult - view Index executed in 0.9094ms.
+2021-10-29 17:34:31.558 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 1.1175ms
+2021-10-29 17:34:31.558 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:31.558 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.9539ms
+2021-10-29 17:34:31.626 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:34:31.652 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:34:31.652 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335360 application/javascript 25.5086ms
+2021-10-29 17:34:38.296 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:34:38.297 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:38.297 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:34:38.297 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:34:38.298 -03:00 [INF] Executed ViewResult - view Index executed in 0.6914ms.
+2021-10-29 17:34:38.298 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.8558ms
+2021-10-29 17:34:38.298 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:38.298 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.5204ms
+2021-10-29 17:34:38.332 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-10-29 17:34:38.334 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-10-29 17:34:38.334 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59348 text/css 1.4986ms
+2021-10-29 17:34:38.336 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - -
+2021-10-29 17:34:38.337 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-10-29 17:34:38.337 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - - - 200 170746 text/css 1.2317ms
+2021-10-29 17:34:38.338 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - -
+2021-10-29 17:34:38.339 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-10-29 17:34:38.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-10-29 17:34:38.340 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-10-29 17:34:38.340 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - - - 200 89503 application/javascript 1.7535ms
+2021-10-29 17:34:38.340 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - -
+2021-10-29 17:34:38.340 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-10-29 17:34:38.340 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-10-29 17:34:38.340 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 0.8955ms
+2021-10-29 17:34:38.341 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-10-29 17:34:38.341 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84384 application/javascript 1.4316ms
+2021-10-29 17:34:38.341 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-10-29 17:34:38.341 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - - - 200 1271 application/javascript 0.7261ms
+2021-10-29 17:34:38.342 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-10-29 17:34:38.342 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173084 application/javascript 2.1522ms
+2021-10-29 17:34:38.345 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - -
+2021-10-29 17:34:38.345 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - -
+2021-10-29 17:34:38.345 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-10-29 17:34:38.346 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:34:38.346 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - - - 200 3687 application/javascript 0.9554ms
+2021-10-29 17:34:38.346 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/views/login/index.js - -
+2021-10-29 17:34:38.346 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-10-29 17:34:38.346 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - - - 200 1092 application/javascript 0.9659ms
+2021-10-29 17:34:38.346 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-10-29 17:34:38.346 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:34:38.347 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 200 3285 application/javascript 0.9179ms
+2021-10-29 17:34:38.347 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-10-29 17:34:38.347 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/views/login/index.js - - - 200 646 application/javascript 0.8568ms
+2021-10-29 17:34:38.352 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:34:38.353 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335360 application/javascript 6.2307ms
+2021-10-29 17:34:38.585 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2021-10-29 17:34:38.586 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-10-29 17:34:38.586 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 200 5430 image/x-icon 0.9386ms
+2021-10-29 17:34:38.653 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:34:38.653 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:38.653 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:34:38.653 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:34:38.654 -03:00 [INF] Executed ViewResult - view Index executed in 0.5431ms.
+2021-10-29 17:34:38.654 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.7005ms
+2021-10-29 17:34:38.654 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:38.654 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.2784ms
+2021-10-29 17:34:38.697 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-10-29 17:34:38.698 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-10-29 17:34:38.698 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59348 text/css 1.0935ms
+2021-10-29 17:34:38.700 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - -
+2021-10-29 17:34:38.701 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-10-29 17:34:38.702 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - - - 200 170746 text/css 1.4745ms
+2021-10-29 17:34:38.702 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - -
+2021-10-29 17:34:38.702 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-10-29 17:34:38.703 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-10-29 17:34:38.703 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-10-29 17:34:38.703 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - -
+2021-10-29 17:34:38.703 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-10-29 17:34:38.703 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84384 application/javascript 1.2477ms
+2021-10-29 17:34:38.704 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - - - 200 89503 application/javascript 1.5797ms
+2021-10-29 17:34:38.704 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-10-29 17:34:38.704 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 1.0810ms
+2021-10-29 17:34:38.704 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-10-29 17:34:38.704 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-10-29 17:34:38.704 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - - - 200 1271 application/javascript 1.2312ms
+2021-10-29 17:34:38.706 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-10-29 17:34:38.706 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173084 application/javascript 1.7773ms
+2021-10-29 17:34:38.710 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - -
+2021-10-29 17:34:38.710 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - -
+2021-10-29 17:34:38.711 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-10-29 17:34:38.711 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:34:38.711 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - - - 200 3687 application/javascript 0.9780ms
+2021-10-29 17:34:38.711 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/views/login/index.js - -
+2021-10-29 17:34:38.711 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:34:38.711 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-10-29 17:34:38.711 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - - - 200 1092 application/javascript 0.9696ms
+2021-10-29 17:34:38.711 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-10-29 17:34:38.712 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-10-29 17:34:38.712 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 200 3285 application/javascript 0.9451ms
+2021-10-29 17:34:38.712 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/views/login/index.js - - - 200 646 application/javascript 0.8203ms
+2021-10-29 17:34:38.718 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:34:38.718 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335360 application/javascript 7.1153ms
+2021-10-29 17:34:38.855 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2021-10-29 17:34:38.856 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-10-29 17:34:38.856 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 200 5430 image/x-icon 1.0664ms
+2021-10-29 17:34:38.878 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:34:38.878 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:38.878 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:34:38.878 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:34:38.878 -03:00 [INF] Executed ViewResult - view Index executed in 0.3311ms.
+2021-10-29 17:34:38.878 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.4694ms
+2021-10-29 17:34:38.879 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:38.879 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.0826ms
+2021-10-29 17:34:38.915 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - -
+2021-10-29 17:34:38.916 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/css/all.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\css\all.min.css'
+2021-10-29 17:34:38.916 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/css/all.min.css - - - 200 59348 text/css 1.1703ms
+2021-10-29 17:34:38.917 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - -
+2021-10-29 17:34:38.917 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - -
+2021-10-29 17:34:38.918 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - -
+2021-10-29 17:34:38.918 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - -
+2021-10-29 17:34:38.918 -03:00 [INF] Sending file. Request path: '/templates/admin/css/sb-admin-2.min.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\css\sb-admin-2.min.css'
+2021-10-29 17:34:38.918 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/css/sb-admin-2.min.css - - - 200 170746 text/css 1.5659ms
+2021-10-29 17:34:38.918 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery/jquery.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery\jquery.min.js'
+2021-10-29 17:34:38.919 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/jquery-easing/jquery.easing.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\jquery-easing\jquery.easing.min.js'
+2021-10-29 17:34:38.918 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery/jquery.min.js - - - 200 89503 application/javascript 0.9883ms
+2021-10-29 17:34:38.919 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/jquery-easing/jquery.easing.min.js - - - 200 2532 application/javascript 0.7521ms
+2021-10-29 17:34:38.919 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js'
+2021-10-29 17:34:38.919 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js - - - 200 84384 application/javascript 1.2476ms
+2021-10-29 17:34:38.919 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - -
+2021-10-29 17:34:38.920 -03:00 [INF] Sending file. Request path: '/templates/admin/js/sb-admin-2.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\sb-admin-2.min.js'
+2021-10-29 17:34:38.920 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/sb-admin-2.min.js - - - 200 1271 application/javascript 0.6375ms
+2021-10-29 17:34:38.922 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - -
+2021-10-29 17:34:38.922 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - -
+2021-10-29 17:34:38.922 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-area-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-area-demo.js'
+2021-10-29 17:34:38.922 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-area-demo.js - - - 200 3687 application/javascript 0.5995ms
+2021-10-29 17:34:38.923 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/chart.js/Chart.min.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\chart.js\Chart.min.js'
+2021-10-29 17:34:38.923 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/chart.js/Chart.min.js - - - 200 173084 application/javascript 1.3546ms
+2021-10-29 17:34:38.924 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - -
+2021-10-29 17:34:38.924 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:34:38.924 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/views/login/index.js - -
+2021-10-29 17:34:38.924 -03:00 [INF] Sending file. Request path: '/templates/admin/js/demo/chart-pie-demo.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\js\demo\chart-pie-demo.js'
+2021-10-29 17:34:38.924 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-10-29 17:34:38.925 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:34:38.925 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/js/demo/chart-pie-demo.js - - - 200 1092 application/javascript 0.8095ms
+2021-10-29 17:34:38.925 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 200 3285 application/javascript 0.7250ms
+2021-10-29 17:34:38.925 -03:00 [INF] Sending file. Request path: '/views/login/index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\views\login\index.js'
+2021-10-29 17:34:38.925 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/views/login/index.js - - - 200 646 application/javascript 0.8444ms
+2021-10-29 17:34:38.929 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:34:38.929 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335360 application/javascript 4.8199ms
+2021-10-29 17:34:39.078 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2021-10-29 17:34:39.078 -03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\favicon.ico'
+2021-10-29 17:34:39.079 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 200 5430 image/x-icon 0.7888ms
+2021-10-29 17:34:40.570 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-10-29 17:34:40.570 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:40.570 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-10-29 17:34:40.570 -03:00 [INF] passou aqui meo
+2021-10-29 17:34:40.570 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:34:40.571 -03:00 [INF] Executed ViewResult - view Index executed in 0.5559ms.
+2021-10-29 17:34:40.571 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 0.8335ms
+2021-10-29 17:34:40.571 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-29 17:34:40.571 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - text/html;+charset=utf-8 1.3857ms
+2021-10-29 17:34:40.736 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/assets/favicon.ico - -
+2021-10-29 17:34:40.736 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/assets/favicon.ico - - - 404 0 - 0.4097ms
+2021-10-29 17:34:46.997 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:34:46.998 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:34:46.998 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.5169ms
+2021-10-29 17:36:14.294 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:36:14.294 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:36:14.294 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:36:14.294 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:36:14.295 -03:00 [INF] Executed ViewResult - view Index executed in 0.6213ms.
+2021-10-29 17:36:14.295 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.8153ms
+2021-10-29 17:36:14.295 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:36:14.295 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.5786ms
+2021-10-29 17:36:14.339 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:36:14.380 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:36:14.381 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335358 application/javascript 41.2992ms
+2021-10-29 17:36:14.509 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:36:14.512 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:36:14.512 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.4769ms
+2021-10-29 17:36:45.706 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.2eb651dc872770d4f9da.hot-update.json - -
+2021-10-29 17:36:45.708 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.2eb651dc872770d4f9da.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.2eb651dc872770d4f9da.hot-update.json'
+2021-10-29 17:36:45.708 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.2eb651dc872770d4f9da.hot-update.json - - - 200 35 application/json 1.5840ms
+2021-10-29 17:36:45.712 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.2eb651dc872770d4f9da.hot-update.js - -
+2021-10-29 17:36:45.731 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.2eb651dc872770d4f9da.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.2eb651dc872770d4f9da.hot-update.js'
+2021-10-29 17:36:45.731 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.2eb651dc872770d4f9da.hot-update.js - - - 200 8716 application/javascript 18.4036ms
+2021-10-29 17:36:45.741 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:36:45.741 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:36:45.741 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:36:45.742 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:36:45.742 -03:00 [INF] Executed ViewResult - view Index executed in 0.6612ms.
+2021-10-29 17:36:45.742 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.8737ms
+2021-10-29 17:36:45.743 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:36:45.743 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.6893ms
+2021-10-29 17:36:45.849 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:36:45.872 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:36:45.872 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335349 application/javascript 22.7271ms
+2021-10-29 17:36:45.966 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:36:45.968 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:36:45.969 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.1298ms
+2021-10-29 17:42:45.540 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.364f5b60c2bbd6155105.hot-update.json - -
+2021-10-29 17:42:45.542 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.364f5b60c2bbd6155105.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.364f5b60c2bbd6155105.hot-update.json'
+2021-10-29 17:42:45.542 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.364f5b60c2bbd6155105.hot-update.json - - - 200 35 application/json 2.1515ms
+2021-10-29 17:42:45.548 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.364f5b60c2bbd6155105.hot-update.js - -
+2021-10-29 17:42:45.573 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.364f5b60c2bbd6155105.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.364f5b60c2bbd6155105.hot-update.js'
+2021-10-29 17:42:45.573 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.364f5b60c2bbd6155105.hot-update.js - - - 200 8664 application/javascript 25.0088ms
+2021-10-29 17:42:45.581 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:42:45.581 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:42:45.581 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:42:45.581 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:42:45.582 -03:00 [INF] Executed ViewResult - view Index executed in 0.4443ms.
+2021-10-29 17:42:45.582 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.6126ms
+2021-10-29 17:42:45.582 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:42:45.582 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.2483ms
+2021-10-29 17:42:45.652 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:42:45.664 -03:00 [INF] Sending file. Request path: '/lib/HTTPClient.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\lib\HTTPClient.js'
+2021-10-29 17:42:45.664 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 200 3287 application/javascript 12.2856ms
+2021-10-29 17:42:45.667 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:42:45.691 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:42:45.691 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335297 application/javascript 24.1513ms
+2021-10-29 17:42:45.773 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:42:45.775 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:42:45.775 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.1654ms
+2021-10-29 17:43:02.666 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.f2f701569810a49c2624.hot-update.json - -
+2021-10-29 17:43:02.667 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.f2f701569810a49c2624.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.f2f701569810a49c2624.hot-update.json'
+2021-10-29 17:43:02.667 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.f2f701569810a49c2624.hot-update.json - - - 200 35 application/json 1.6049ms
+2021-10-29 17:43:02.699 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.f2f701569810a49c2624.hot-update.js - -
+2021-10-29 17:43:02.714 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.f2f701569810a49c2624.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.f2f701569810a49c2624.hot-update.js'
+2021-10-29 17:43:02.715 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.f2f701569810a49c2624.hot-update.js - - - 200 8709 application/javascript 15.6788ms
+2021-10-29 17:43:02.722 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:43:02.722 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:43:02.722 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:43:02.722 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:43:02.722 -03:00 [INF] Executed ViewResult - view Index executed in 0.3815ms.
+2021-10-29 17:43:02.723 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.5264ms
+2021-10-29 17:43:02.723 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:43:02.723 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.1391ms
+2021-10-29 17:43:02.793 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:43:02.820 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:43:02.821 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1335342 application/javascript 27.5580ms
+2021-10-29 17:43:02.910 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:43:02.911 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:43:02.912 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.9356ms
+2021-10-29 17:43:05.560 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:43:05.560 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:43:05.560 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:43:05.560 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:43:05.561 -03:00 [INF] Executed ViewResult - view Index executed in 0.4564ms.
+2021-10-29 17:43:05.561 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.6438ms
+2021-10-29 17:43:05.561 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:43:05.561 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.3411ms
+2021-10-29 17:43:05.601 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:43:05.601 -03:00 [INF] The file /clientapp/dist/views/login/Index.js was not modified
+2021-10-29 17:43:05.601 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 304 - application/javascript 0.4760ms
+2021-10-29 17:43:05.786 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:43:05.790 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:43:05.790 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 4.0488ms
+2021-10-29 17:45:15.303 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.8929d109eea189f79020.hot-update.json - -
+2021-10-29 17:45:15.304 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.8929d109eea189f79020.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.8929d109eea189f79020.hot-update.json'
+2021-10-29 17:45:15.304 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.8929d109eea189f79020.hot-update.json - - - 200 35 application/json 1.6560ms
+2021-10-29 17:45:15.350 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.8929d109eea189f79020.hot-update.js - -
+2021-10-29 17:45:15.385 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.8929d109eea189f79020.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.8929d109eea189f79020.hot-update.js'
+2021-10-29 17:45:15.385 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.8929d109eea189f79020.hot-update.js - - - 200 76615 application/javascript 35.6840ms
+2021-10-29 17:45:15.395 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:45:15.396 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:45:15.396 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:45:15.396 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:45:15.396 -03:00 [INF] Executed ViewResult - view Index executed in 0.469ms.
+2021-10-29 17:45:15.396 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.681ms
+2021-10-29 17:45:15.397 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:45:15.397 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.3635ms
+2021-10-29 17:45:15.569 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:45:15.571 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:45:15.571 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.1087ms
+2021-10-29 17:45:15.572 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:45:15.572 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-10-29 17:45:15.572 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 304 - application/javascript 0.4925ms
+2021-10-29 17:45:15.602 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:45:15.842 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:45:15.842 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1403248 application/javascript 239.9460ms
+2021-10-29 17:47:09.286 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.b91af663693fc8bd0e16.hot-update.json - -
+2021-10-29 17:47:09.287 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.b91af663693fc8bd0e16.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.b91af663693fc8bd0e16.hot-update.json'
+2021-10-29 17:47:09.288 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.b91af663693fc8bd0e16.hot-update.json - - - 200 57 application/json 1.6021ms
+2021-10-29 17:47:09.292 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.b91af663693fc8bd0e16.hot-update.js - -
+2021-10-29 17:47:09.310 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.b91af663693fc8bd0e16.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.b91af663693fc8bd0e16.hot-update.js'
+2021-10-29 17:47:09.310 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.b91af663693fc8bd0e16.hot-update.js - - - 200 8921 application/javascript 18.6248ms
+2021-10-29 17:47:09.319 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:47:09.319 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:09.319 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:47:09.319 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:47:09.320 -03:00 [INF] Executed ViewResult - view Index executed in 0.4682ms.
+2021-10-29 17:47:09.320 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.6379ms
+2021-10-29 17:47:09.320 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:09.320 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.2490ms
+2021-10-29 17:47:09.398 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:47:09.398 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-10-29 17:47:09.398 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 304 - application/javascript 0.6210ms
+2021-10-29 17:47:09.421 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:47:09.525 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:47:09.527 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:47:09.527 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.1941ms
+2021-10-29 17:47:09.670 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:47:09.670 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399949 application/javascript 248.9518ms
+2021-10-29 17:47:26.061 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.1b41ac411dd07b0b9aed.hot-update.json - -
+2021-10-29 17:47:26.062 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.1b41ac411dd07b0b9aed.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.1b41ac411dd07b0b9aed.hot-update.json'
+2021-10-29 17:47:26.062 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.1b41ac411dd07b0b9aed.hot-update.json - - - 200 35 application/json 1.5358ms
+2021-10-29 17:47:26.067 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.1b41ac411dd07b0b9aed.hot-update.js - -
+2021-10-29 17:47:26.086 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.1b41ac411dd07b0b9aed.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.1b41ac411dd07b0b9aed.hot-update.js'
+2021-10-29 17:47:26.086 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.1b41ac411dd07b0b9aed.hot-update.js - - - 200 8922 application/javascript 19.0013ms
+2021-10-29 17:47:26.096 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:47:26.096 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:26.096 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:47:26.096 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:47:26.097 -03:00 [INF] Executed ViewResult - view Index executed in 0.5707ms.
+2021-10-29 17:47:26.097 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.7768ms
+2021-10-29 17:47:26.097 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:26.097 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.6618ms
+2021-10-29 17:47:26.192 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:47:26.300 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:47:26.301 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:47:26.302 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.8716ms
+2021-10-29 17:47:26.436 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:47:26.436 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399950 application/javascript 243.9274ms
+2021-10-29 17:47:49.198 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.5b360038aa5350883cc8.hot-update.json - -
+2021-10-29 17:47:49.199 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.5b360038aa5350883cc8.hot-update.json - - - 404 0 - 0.2966ms
+2021-10-29 17:47:49.205 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:47:49.206 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:49.206 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:47:49.206 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:47:49.207 -03:00 [INF] Executed ViewResult - view Index executed in 0.6816ms.
+2021-10-29 17:47:49.207 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.925ms
+2021-10-29 17:47:49.207 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:49.207 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.8601ms
+2021-10-29 17:47:49.287 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:47:49.404 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:47:49.406 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:47:49.406 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.0337ms
+2021-10-29 17:47:49.533 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:47:49.533 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399950 application/javascript 245.9450ms
+2021-10-29 17:47:58.974 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:47:58.974 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:58.974 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:47:58.974 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:47:58.975 -03:00 [INF] Executed ViewResult - view Index executed in 0.3744ms.
+2021-10-29 17:47:58.975 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.4987ms
+2021-10-29 17:47:58.975 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:47:58.975 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.0542ms
+2021-10-29 17:47:59.007 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:47:59.007 -03:00 [INF] The file /clientapp/dist/views/login/Index.js was not modified
+2021-10-29 17:47:59.007 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 304 - application/javascript 0.4579ms
+2021-10-29 17:48:04.357 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Login/Autenticar application/json 35
+2021-10-29 17:48:04.357 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Login/Autenticar application/json 35 - 404 0 - 0.2310ms
+2021-10-29 17:48:06.528 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:48:06.531 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:48:06.531 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.6185ms
+2021-10-29 17:48:10.350 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Login/Autenticar application/json 35
+2021-10-29 17:48:10.350 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Login/Autenticar application/json 35 - 404 0 - 0.3598ms
+2021-10-29 17:48:11.062 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Login/Autenticar application/json 35
+2021-10-29 17:48:11.062 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/Login/Autenticar application/json 35 - 404 0 - 0.4055ms
+2021-10-29 17:48:29.944 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.57e304386c3427b879ff.hot-update.json - -
+2021-10-29 17:48:29.946 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.57e304386c3427b879ff.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.57e304386c3427b879ff.hot-update.json'
+2021-10-29 17:48:29.946 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.57e304386c3427b879ff.hot-update.json - - - 200 35 application/json 1.6223ms
+2021-10-29 17:48:29.947 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.57e304386c3427b879ff.hot-update.json - -
+2021-10-29 17:48:29.948 -03:00 [INF] The file /clientapp/dist/views/login_Index.57e304386c3427b879ff.hot-update.json was not modified
+2021-10-29 17:48:29.948 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.57e304386c3427b879ff.hot-update.json - - - 304 - application/json 0.5320ms
+2021-10-29 17:48:29.951 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.57e304386c3427b879ff.hot-update.js - -
+2021-10-29 17:48:29.971 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.57e304386c3427b879ff.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.57e304386c3427b879ff.hot-update.js'
+2021-10-29 17:48:29.971 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.57e304386c3427b879ff.hot-update.js - - - 200 8922 application/javascript 19.8250ms
+2021-10-29 17:48:29.972 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.57e304386c3427b879ff.hot-update.js - -
+2021-10-29 17:48:29.972 -03:00 [INF] The file /clientapp/dist/views/login/Index.57e304386c3427b879ff.hot-update.js was not modified
+2021-10-29 17:48:29.973 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.57e304386c3427b879ff.hot-update.js - - - 304 - application/javascript 0.3795ms
+2021-10-29 17:48:29.984 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:48:29.985 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:29.985 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:48:29.985 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:48:29.985 -03:00 [INF] Executed ViewResult - view Index executed in 0.4171ms.
+2021-10-29 17:48:29.985 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.5496ms
+2021-10-29 17:48:29.985 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:29.985 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.1315ms
+2021-10-29 17:48:29.986 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:48:29.986 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:29.986 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:48:29.987 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:48:29.987 -03:00 [INF] Executed ViewResult - view Index executed in 0.2676ms.
+2021-10-29 17:48:29.987 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.3879ms
+2021-10-29 17:48:29.987 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:29.987 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 0.8777ms
+2021-10-29 17:48:30.073 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:48:30.074 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-10-29 17:48:30.074 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 304 - application/javascript 0.7369ms
+2021-10-29 17:48:30.122 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:48:30.194 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:48:30.196 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:48:30.196 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.9246ms
+2021-10-29 17:48:30.205 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:48:30.207 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:48:30.207 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.1209ms
+2021-10-29 17:48:30.370 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:48:30.371 -03:00 [INF] The file /clientapp/dist/views/login/Index.js was not modified
+2021-10-29 17:48:30.371 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 304 - application/javascript 0.5709ms
+2021-10-29 17:48:30.373 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:48:30.373 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399950 application/javascript 251.5480ms
+2021-10-29 17:48:32.392 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/login/autenticar application/json 29
+2021-10-29 17:48:32.392 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/login/autenticar application/json 29 - 404 0 - 0.2093ms
+2021-10-29 17:48:42.078 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.85b2ade49dcae665ae02.hot-update.json - -
+2021-10-29 17:48:42.082 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.85b2ade49dcae665ae02.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.85b2ade49dcae665ae02.hot-update.json'
+2021-10-29 17:48:42.082 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.85b2ade49dcae665ae02.hot-update.json - - - 200 35 application/json 4.4487ms
+2021-10-29 17:48:42.083 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.85b2ade49dcae665ae02.hot-update.json - -
+2021-10-29 17:48:42.084 -03:00 [INF] The file /clientapp/dist/views/login_Index.85b2ade49dcae665ae02.hot-update.json was not modified
+2021-10-29 17:48:42.084 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.85b2ade49dcae665ae02.hot-update.json - - - 304 - application/json 0.5164ms
+2021-10-29 17:48:42.098 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.85b2ade49dcae665ae02.hot-update.js - -
+2021-10-29 17:48:42.119 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.85b2ade49dcae665ae02.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.85b2ade49dcae665ae02.hot-update.js'
+2021-10-29 17:48:42.119 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.85b2ade49dcae665ae02.hot-update.js - - - 200 8928 application/javascript 21.1609ms
+2021-10-29 17:48:42.120 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.85b2ade49dcae665ae02.hot-update.js - -
+2021-10-29 17:48:42.121 -03:00 [INF] The file /clientapp/dist/views/login/Index.85b2ade49dcae665ae02.hot-update.js was not modified
+2021-10-29 17:48:42.121 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.85b2ade49dcae665ae02.hot-update.js - - - 304 - application/javascript 0.5511ms
+2021-10-29 17:48:42.142 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:48:42.143 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:42.143 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:48:42.144 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:48:42.144 -03:00 [INF] Executed ViewResult - view Index executed in 1.2071ms.
+2021-10-29 17:48:42.145 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 1.4603ms
+2021-10-29 17:48:42.145 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:42.145 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 2.3951ms
+2021-10-29 17:48:42.153 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:48:42.153 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:42.153 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:48:42.154 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:48:42.154 -03:00 [INF] Executed ViewResult - view Index executed in 0.4991ms.
+2021-10-29 17:48:42.154 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.7826ms
+2021-10-29 17:48:42.154 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:42.155 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.5260ms
+2021-10-29 17:48:42.205 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:48:42.410 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:48:42.411 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:48:42.413 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:48:42.413 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:48:42.413 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 3.0848ms
+2021-10-29 17:48:42.413 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.3402ms
+2021-10-29 17:48:42.472 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:48:42.476 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:48:42.476 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399956 application/javascript 271.7957ms
+2021-10-29 17:48:42.479 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:48:42.479 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399956 application/javascript 6.9720ms
+2021-10-29 17:48:46.007 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 32
+2021-10-29 17:48:46.009 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:48:46.009 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:48:46.010 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:48:46.010 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 0.7968ms
+2021-10-29 17:48:46.010 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:48:46.010 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 32 - 200 - application/json;+charset=utf-8 3.2405ms
+2021-10-29 17:48:59.526 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.7473dd01410114c1f10d.hot-update.json - -
+2021-10-29 17:48:59.528 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.7473dd01410114c1f10d.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.7473dd01410114c1f10d.hot-update.json'
+2021-10-29 17:48:59.528 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.7473dd01410114c1f10d.hot-update.json - - - 200 35 application/json 1.9200ms
+2021-10-29 17:48:59.529 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.7473dd01410114c1f10d.hot-update.json - -
+2021-10-29 17:48:59.529 -03:00 [INF] The file /clientapp/dist/views/login_Index.7473dd01410114c1f10d.hot-update.json was not modified
+2021-10-29 17:48:59.529 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.7473dd01410114c1f10d.hot-update.json - - - 304 - application/json 0.4372ms
+2021-10-29 17:48:59.534 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.7473dd01410114c1f10d.hot-update.js - -
+2021-10-29 17:48:59.549 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.7473dd01410114c1f10d.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.7473dd01410114c1f10d.hot-update.js'
+2021-10-29 17:48:59.549 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.7473dd01410114c1f10d.hot-update.js - - - 200 8960 application/javascript 15.6106ms
+2021-10-29 17:48:59.550 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.7473dd01410114c1f10d.hot-update.js - -
+2021-10-29 17:48:59.551 -03:00 [INF] The file /clientapp/dist/views/login/Index.7473dd01410114c1f10d.hot-update.js was not modified
+2021-10-29 17:48:59.551 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.7473dd01410114c1f10d.hot-update.js - - - 304 - application/javascript 0.4356ms
+2021-10-29 17:48:59.562 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:48:59.563 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:59.563 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:48:59.563 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:48:59.563 -03:00 [INF] Executed ViewResult - view Index executed in 0.2985ms.
+2021-10-29 17:48:59.563 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.6123ms
+2021-10-29 17:48:59.563 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:59.564 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.2193ms
+2021-10-29 17:48:59.564 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:48:59.564 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:59.565 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:48:59.565 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:48:59.565 -03:00 [INF] Executed ViewResult - view Index executed in 0.4047ms.
+2021-10-29 17:48:59.565 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.5451ms
+2021-10-29 17:48:59.565 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:48:59.565 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.1917ms
+2021-10-29 17:48:59.664 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:48:59.780 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:48:59.781 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:48:59.782 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.9839ms
+2021-10-29 17:48:59.793 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:48:59.795 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:48:59.795 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.9791ms
+2021-10-29 17:48:59.921 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:48:59.925 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:48:59.925 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399988 application/javascript 261.3968ms
+2021-10-29 17:48:59.928 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:48:59.928 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1399988 application/javascript 6.6563ms
+2021-10-29 17:49:03.886 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 30
+2021-10-29 17:49:03.887 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:49:03.887 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:49:03.887 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:49:03.887 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 0.319ms
+2021-10-29 17:49:03.887 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:49:03.887 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 30 - 200 - application/json;+charset=utf-8 0.9531ms
+2021-10-29 17:49:46.105 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.16658777ed6a2b210d37.hot-update.json - -
+2021-10-29 17:49:46.106 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.16658777ed6a2b210d37.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.16658777ed6a2b210d37.hot-update.json'
+2021-10-29 17:49:46.106 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.16658777ed6a2b210d37.hot-update.json - - - 200 35 application/json 1.8391ms
+2021-10-29 17:49:46.107 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.16658777ed6a2b210d37.hot-update.json - -
+2021-10-29 17:49:46.108 -03:00 [INF] The file /clientapp/dist/views/login_Index.16658777ed6a2b210d37.hot-update.json was not modified
+2021-10-29 17:49:46.108 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.16658777ed6a2b210d37.hot-update.json - - - 304 - application/json 0.3612ms
+2021-10-29 17:49:46.111 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.16658777ed6a2b210d37.hot-update.js - -
+2021-10-29 17:49:46.129 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.16658777ed6a2b210d37.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.16658777ed6a2b210d37.hot-update.js'
+2021-10-29 17:49:46.129 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.16658777ed6a2b210d37.hot-update.js - - - 200 8980 application/javascript 18.3611ms
+2021-10-29 17:49:46.130 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.16658777ed6a2b210d37.hot-update.js - -
+2021-10-29 17:49:46.131 -03:00 [INF] The file /clientapp/dist/views/login/Index.16658777ed6a2b210d37.hot-update.js was not modified
+2021-10-29 17:49:46.131 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.16658777ed6a2b210d37.hot-update.js - - - 304 - application/javascript 0.5810ms
+2021-10-29 17:49:46.143 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:49:46.143 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:46.143 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:49:46.143 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:49:46.144 -03:00 [INF] Executed ViewResult - view Index executed in 0.4936ms.
+2021-10-29 17:49:46.144 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.6771ms
+2021-10-29 17:49:46.144 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:46.144 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.5035ms
+2021-10-29 17:49:46.145 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:49:46.145 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:46.146 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:49:46.146 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:49:46.146 -03:00 [INF] Executed ViewResult - view Index executed in 0.4869ms.
+2021-10-29 17:49:46.146 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.6605ms
+2021-10-29 17:49:46.146 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:46.146 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.2094ms
+2021-10-29 17:49:46.229 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:49:46.229 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-10-29 17:49:46.229 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 304 - application/javascript 0.6107ms
+2021-10-29 17:49:46.244 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 17:49:46.244 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-10-29 17:49:46.244 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 304 - application/javascript 0.5513ms
+2021-10-29 17:49:46.260 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:49:46.346 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:49:46.348 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:49:46.348 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.0773ms
+2021-10-29 17:49:46.382 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:49:46.384 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:49:46.384 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.7723ms
+2021-10-29 17:49:46.521 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:49:46.527 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:49:46.527 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1400008 application/javascript 266.4193ms
+2021-10-29 17:49:46.528 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:49:46.528 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1400008 application/javascript 6.9556ms
+2021-10-29 17:49:49.836 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 32
+2021-10-29 17:49:49.836 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:49:49.836 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:49:49.836 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:49:49.837 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 0.429ms
+2021-10-29 17:49:49.837 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:49:49.837 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 32 - 200 - application/json;+charset=utf-8 1.1377ms
+2021-10-29 17:49:56.415 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.8cc220571c49a58c4692.hot-update.json - -
+2021-10-29 17:49:56.418 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.8cc220571c49a58c4692.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.8cc220571c49a58c4692.hot-update.json'
+2021-10-29 17:49:56.418 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.8cc220571c49a58c4692.hot-update.json - - - 200 35 application/json 2.9272ms
+2021-10-29 17:49:56.419 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.8cc220571c49a58c4692.hot-update.json - -
+2021-10-29 17:49:56.420 -03:00 [INF] The file /clientapp/dist/views/login_Index.8cc220571c49a58c4692.hot-update.json was not modified
+2021-10-29 17:49:56.420 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.8cc220571c49a58c4692.hot-update.json - - - 304 - application/json 0.8436ms
+2021-10-29 17:49:56.436 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.8cc220571c49a58c4692.hot-update.js - -
+2021-10-29 17:49:56.456 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.8cc220571c49a58c4692.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.8cc220571c49a58c4692.hot-update.js'
+2021-10-29 17:49:56.456 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.8cc220571c49a58c4692.hot-update.js - - - 200 8985 application/javascript 20.3022ms
+2021-10-29 17:49:56.458 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.8cc220571c49a58c4692.hot-update.js - -
+2021-10-29 17:49:56.458 -03:00 [INF] The file /clientapp/dist/views/login/Index.8cc220571c49a58c4692.hot-update.js was not modified
+2021-10-29 17:49:56.458 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.8cc220571c49a58c4692.hot-update.js - - - 304 - application/javascript 0.5767ms
+2021-10-29 17:49:56.470 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:49:56.470 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:56.471 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:49:56.471 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:49:56.471 -03:00 [INF] Executed ViewResult - view Index executed in 0.4356ms.
+2021-10-29 17:49:56.471 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.6412ms
+2021-10-29 17:49:56.471 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:56.471 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.3382ms
+2021-10-29 17:49:56.472 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 17:49:56.472 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:56.473 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:49:56.473 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:49:56.474 -03:00 [INF] Executed ViewResult - view Index executed in 0.6851ms.
+2021-10-29 17:49:56.474 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.9705ms
+2021-10-29 17:49:56.474 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 17:49:56.474 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.8223ms
+2021-10-29 17:49:56.516 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:49:56.785 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 17:49:56.789 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:49:56.789 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1400013 application/javascript 273.4948ms
+2021-10-29 17:49:56.791 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 17:49:56.791 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1400013 application/javascript 5.9623ms
+2021-10-29 17:49:56.864 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:49:56.865 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:49:56.865 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.6138ms
+2021-10-29 17:49:56.883 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:49:56.884 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:49:56.885 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.8130ms
+2021-10-29 17:49:58.001 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 29
+2021-10-29 17:49:58.001 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:49:58.001 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:49:58.002 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:49:58.002 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 0.3971ms
+2021-10-29 17:49:58.002 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:49:58.002 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 29 - 200 - application/json;+charset=utf-8 1.1081ms
+2021-10-29 17:50:04.285 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 35
+2021-10-29 17:50:04.285 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:50:04.285 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:50:04.285 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:50:04.285 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 0.2981ms
+2021-10-29 17:50:04.285 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:50:04.285 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 35 - 200 - application/json;+charset=utf-8 0.8300ms
+2021-10-29 17:50:04.569 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 35
+2021-10-29 17:50:04.569 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:50:04.569 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:50:04.569 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:50:04.570 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 0.2914ms
+2021-10-29 17:50:04.570 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:50:04.570 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 35 - 200 - application/json;+charset=utf-8 0.8661ms
+2021-10-29 17:50:10.082 -03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 33
+2021-10-29 17:50:10.083 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:50:10.083 -03:00 [INF] Route matched with {area = "Admin", action = "Autenticar", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Autenticar(System.Text.Json.JsonElement) on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 17:50:10.083 -03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType1`3[[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-10-29 17:50:10.083 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce) in 0.3468ms
+2021-10-29 17:50:10.083 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Autenticar (ProjetoEcommerce)'
+2021-10-29 17:50:10.083 -03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/admin/login/autenticar application/json 33 - 200 - application/json;+charset=utf-8 0.8997ms
+2021-10-29 17:50:10.090 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/Home - -
+2021-10-29 17:50:10.090 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-29 17:50:10.091 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.HomeController (ProjetoEcommerce).
+2021-10-29 17:50:10.093 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 17:50:10.113 -03:00 [INF] Executed ViewResult - view Index executed in 21.663ms.
+2021-10-29 17:50:10.113 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce) in 22.1674ms
+2021-10-29 17:50:10.113 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-10-29 17:50:10.113 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/Home - - - 200 - text/html;+charset=utf-8 23.8054ms
+2021-10-29 17:50:10.196 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - -
+2021-10-29 17:50:10.197 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_1.svg - - - 404 0 - 0.3507ms
+2021-10-29 17:50:10.197 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - -
+2021-10-29 17:50:10.197 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - -
+2021-10-29 17:50:10.197 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_3.svg - - - 404 0 - 0.2280ms
+2021-10-29 17:50:10.197 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile_2.svg - - - 404 0 - 0.2887ms
+2021-10-29 17:50:10.199 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - -
+2021-10-29 17:50:10.199 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/Admin/img/undraw_profile.svg - - - 404 0 - 0.3021ms
+2021-10-29 17:50:10.298 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 - -
+2021-10-29 17:50:10.306 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\fontawesome-free\webfonts\fa-solid-900.woff2'
+2021-10-29 17:50:10.306 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/fontawesome-free/webfonts/fa-solid-900.woff2 - - - 200 78196 font/woff2 8.0097ms
+2021-10-29 17:50:10.341 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 17:50:10.343 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 17:50:10.343 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 1.8763ms
+2021-10-29 18:06:47.510 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.02bcc9d26133c0f43e96.hot-update.json - -
+2021-10-29 18:06:47.512 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login_Index.02bcc9d26133c0f43e96.hot-update.json'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login_Index.02bcc9d26133c0f43e96.hot-update.json'
+2021-10-29 18:06:47.512 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login_Index.02bcc9d26133c0f43e96.hot-update.json - - - 200 35 application/json 1.7830ms
+2021-10-29 18:06:47.517 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.02bcc9d26133c0f43e96.hot-update.js - -
+2021-10-29 18:06:47.541 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.02bcc9d26133c0f43e96.hot-update.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.02bcc9d26133c0f43e96.hot-update.js'
+2021-10-29 18:06:47.541 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.02bcc9d26133c0f43e96.hot-update.js - - - 200 9011 application/javascript 24.6891ms
+2021-10-29 18:06:47.551 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/admin - -
+2021-10-29 18:06:47.551 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 18:06:47.551 -03:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Areas.Admin.Controllers.LoginController (ProjetoEcommerce).
+2021-10-29 18:06:47.552 -03:00 [INF] Executing ViewResult, running view Index.
+2021-10-29 18:06:47.552 -03:00 [INF] Executed ViewResult - view Index executed in 0.4313ms.
+2021-10-29 18:06:47.552 -03:00 [INF] Executed action ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce) in 0.5528ms
+2021-10-29 18:06:47.552 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Areas.Admin.Controllers.LoginController.Index (ProjetoEcommerce)'
+2021-10-29 18:06:47.552 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/admin - - - 200 - text/html;+charset=utf-8 1.0238ms
+2021-10-29 18:06:47.639 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - -
+2021-10-29 18:06:47.639 -03:00 [INF] The file /lib/HTTPClient.js was not modified
+2021-10-29 18:06:47.639 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/lib/HTTPClient.js - - - 304 - application/javascript 0.4057ms
+2021-10-29 18:06:47.687 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - -
+2021-10-29 18:06:47.744 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - -
+2021-10-29 18:06:47.746 -03:00 [INF] Sending file. Request path: '/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\admin\vendor\bootstrap\js\bootstrap.bundle.min.js.map'
+2021-10-29 18:06:47.747 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/admin/vendor/bootstrap/js/bootstrap.bundle.min.js.map - - - 200 316181 text/plain 2.6293ms
+2021-10-29 18:06:47.928 -03:00 [INF] Sending file. Request path: '/clientapp/dist/views/login/Index.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\clientapp\dist\views\login\Index.js'
+2021-10-29 18:06:47.928 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/clientapp/dist/views/login/Index.js - - - 200 1400039 application/javascript 241.2400ms
