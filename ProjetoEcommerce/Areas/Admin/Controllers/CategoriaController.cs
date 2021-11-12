@@ -21,7 +21,7 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
             string mensagem;
             string nome = dados.GetProperty("nome").GetString();
             
-            //Services.CategoriaService cs = new Services.CategoriaService();
+            Services.CategoriaService cs = new Services.CategoriaService();
             Models.Categoria c = new Models.Categoria(0, nome);
             
             (ok, mensagem) = c.Validar();
@@ -30,6 +30,16 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
                 mensagem = "Categoria cadastrada com sucesso"; 
             }
             return Json(new { ok, mensagem });
+        }
+
+        //list all categories
+        [HttpGet]
+        public IActionResult Listar()
+        {
+            Services.CategoriaService cs = new Services.CategoriaService();
+            IEnumerable<Models.Categoria> lista = new List<Models.Categoria>();
+            lista = cs.Listar();
+            return Json(new {lista});
         }
     }
 }

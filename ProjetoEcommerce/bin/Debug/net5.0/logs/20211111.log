@@ -1,0 +1,24 @@
+2021-11-11 22:39:09.101 -03:00 [INF] Logger funcionado...
+2021-11-11 22:39:09.172 -03:00 [INF] Starting...
+2021-11-11 22:39:09.675 -03:00 [INF] User profile is available. Using 'C:\Users\igorr\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-11 22:39:10.246 -03:00 [INF] Now listening on: http://localhost:5000
+2021-11-11 22:39:10.246 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-11 22:39:10.246 -03:00 [INF] Hosting environment: Development
+2021-11-11 22:39:10.246 -03:00 [INF] Content root path: C:\projetos\ecommerce-drive\ProjetoEcommerce
+2021-11-11 22:39:10.532 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2021-11-11 22:39:10.573 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-11-11 22:39:10.614 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-11-11 22:39:10.618 -03:00 [INF] passou aqui meo
+2021-11-11 22:39:10.662 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-11 22:39:10.778 -03:00 [INF] Executed ViewResult - view Index executed in 144.7842ms.
+2021-11-11 22:39:10.780 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 165.224ms
+2021-11-11 22:39:10.780 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-11-11 22:39:10.783 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 200 - text/html;+charset=utf-8 253.3242ms
+2021-11-11 22:39:10.803 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/site/css/styles.css - -
+2021-11-11 22:39:10.829 -03:00 [INF] Sending file. Request path: '/templates/site/css/styles.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\site\css\styles.css'
+2021-11-11 22:39:10.831 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/site/css/styles.css - - - 200 217476 text/css 27.7553ms
+2021-11-11 22:39:10.837 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/site/js/scripts.js - -
+2021-11-11 22:39:10.850 -03:00 [INF] Sending file. Request path: '/templates/site/js/scripts.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\site\js\scripts.js'
+2021-11-11 22:39:10.850 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/site/js/scripts.js - - - 200 336 application/javascript 12.6016ms
+2021-11-11 22:39:11.052 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/assets/favicon.ico - -
+2021-11-11 22:39:11.054 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/assets/favicon.ico - - - 404 0 - 2.4362ms

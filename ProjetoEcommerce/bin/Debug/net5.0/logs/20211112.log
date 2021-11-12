@@ -1,0 +1,15 @@
+2021-11-12 07:55:37.140 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/? - -
+2021-11-12 07:55:37.151 -03:00 [INF] Executing endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-11-12 07:55:37.153 -03:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ProjetoEcommerce.Controllers.HomeController (ProjetoEcommerce).
+2021-11-12 07:55:37.154 -03:00 [INF] passou aqui meo
+2021-11-12 07:55:37.158 -03:00 [INF] Executing ViewResult, running view Index.
+2021-11-12 07:55:37.163 -03:00 [INF] Executed ViewResult - view Index executed in 8.1665ms.
+2021-11-12 07:55:37.164 -03:00 [INF] Executed action ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce) in 11.0111ms
+2021-11-12 07:55:37.164 -03:00 [INF] Executed endpoint 'ProjetoEcommerce.Controllers.HomeController.Index (ProjetoEcommerce)'
+2021-11-12 07:55:37.164 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/? - - - 200 - text/html;+charset=utf-8 27.8471ms
+2021-11-12 07:55:37.205 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/site/css/styles.css - -
+2021-11-12 07:55:37.214 -03:00 [INF] Sending file. Request path: '/templates/site/css/styles.css'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\site\css\styles.css'
+2021-11-12 07:55:37.214 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/site/css/styles.css - - - 200 217476 text/css 9.3639ms
+2021-11-12 07:55:37.242 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/templates/site/js/scripts.js - -
+2021-11-12 07:55:37.251 -03:00 [INF] Sending file. Request path: '/templates/site/js/scripts.js'. Physical path: 'C:\projetos\ecommerce-drive\ProjetoEcommerce\wwwroot\templates\site\js\scripts.js'
+2021-11-12 07:55:37.252 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/templates/site/js/scripts.js - - - 200 336 application/javascript 9.4704ms

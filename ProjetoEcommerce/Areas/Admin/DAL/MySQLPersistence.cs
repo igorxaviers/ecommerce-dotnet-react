@@ -19,11 +19,7 @@ namespace ProjetoEcommerce.DAL
 
         public MySQLPersistence()
         {
-            _strCon = 
-                "Server=den1.mysql3.gear.host;" +
-                "Database=fipp2022;" +
-                "Uid=fipp2022;" +
-                "Pwd=123456$;";
+            _strCon = Environment.GetEnvironmentVariable("STR_CON");
             _conexao = new MySqlConnection(_strCon);
             _comando = _conexao.CreateCommand();
         }
