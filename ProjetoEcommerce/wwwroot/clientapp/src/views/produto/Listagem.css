@@ -1,0 +1,57 @@
+.badge-estoque{
+    border-right: 5px solid;
+}
+.estoque{
+    color: #000;
+    background-color: #fff;
+    padding: 3px 8px;
+    border-radius: 2px;
+    margin-left: 10px;
+}
+
+.border-danger{
+    border-color: #d63e4d;
+}
+.border-warning{
+    border-color: #ffc107;
+}
+.border-success{
+    border-color: #3ebe5c;
+}
+
+.preco{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.produto{
+    border-radius: 15px;
+}
+.produto p{
+    color: #262626;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: fit-content;
+    background-color: #f1f1f1;
+}
+.produto p i{
+    min-width: 40px;
+    text-align: center;
+    margin-right: 15px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+.produto img{
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0;
+    margin-right: 20px;
+}
+
+
+.loading div.placeholder{
+    width: 150px;
+    height: 150px;
+}

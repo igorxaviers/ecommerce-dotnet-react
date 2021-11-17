@@ -27,18 +27,18 @@ class CadastroCategoria extends React.Component {
             nome: this.state.nome
         }
         axios.post('Categoria/Cadastrar', categoria)
-        .then(res => {
-            console.log(res.data);
-            if (res.data.ok) 
+        .then(response => {
+            console.log(response.data);
+            if (response.data.ok) 
             {
-                toast.success(res.data.mensagem, {
+                toast.success(response.data.mensagem, {
                     position: "bottom-right",
                     theme: "colored"
                 });
             }
             else 
             {
-                toast.error(res.data.mensagem, {
+                toast.error(response.data.mensagem, {
                     position: "bottom-right",
                     theme: "colored"
                 });
