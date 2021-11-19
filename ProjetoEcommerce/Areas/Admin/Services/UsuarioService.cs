@@ -57,7 +57,7 @@ namespace ProjetoEcommerce.Areas.Admin.Services
 
         public bool ValidarAutenticacao(Models.Usuario usuario)
         {
-            return _uDAL.ValidarAutenticacao(usuario.Nome, usuario.Senha);
+            return _uDAL.ValidarAutenticacao(usuario.Login, usuario.Senha);
         }
     }
 }

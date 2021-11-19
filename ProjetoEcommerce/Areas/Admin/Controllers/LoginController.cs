@@ -17,28 +17,35 @@ namespace ProjetoEcommerce.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Autenticar([FromBody] System.Text.Json.JsonElement dados)
         {
+            bool sucesso = false;
+            string mensagem = "";
+            string url = "";
             Models.Usuario u = new Models.Usuario();
             u.Login = dados.GetProperty("login").GetString();
             u.Senha = dados.GetProperty("senha").GetString();
 
-            Services.UsuarioService us = new Services.UsuarioService();
-            string msg = "";
-            bool sucesso = false;
-            if (us.ValidarAutenticacao(u))
+            (sucesso, mensagem) = u.ValidarLogin();
+            if(sucesso)
             {
-                msg = "Bem-vindo";
-                sucesso = true;
-            }
-            else
-            {
-                msg = "Dados inválidos.";
+                Services.UsuarioService us = new Services.UsuarioService();
+                if (us.ValidarAutenticacao(u))
+                {
+                    mensagem = "Bem-vindo";
+                    sucesso = true;
+                    url = "Admin/Produto";
+                }
+                else
+                {
+                    mensagem = "Dados inválidos.";
+                    sucesso = false;
+                }
             }
 
             return Json(new { 
-                msg,
-                sucesso
+                mensagem,
+                sucesso,
+                url
             });
-
         }
     }
 }

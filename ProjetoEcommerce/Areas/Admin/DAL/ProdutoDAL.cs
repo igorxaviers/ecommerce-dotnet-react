@@ -16,8 +16,7 @@ namespace ProjetoEcommerce.DAL
            
             if (produto.Id == 0)
             {
-                sql = @"INSERT INTO produtos (nome, preco, estoque, categoria) 
-                        VALUES (@nome, @preco, @estoque, @categoria)";
+                sql = @"INSERT INTO produtos (nome, preco, estoque, categoria_id) VALUES (@nome, @preco, @estoque, @categoria)";
             }
             else
             {
@@ -25,7 +24,7 @@ namespace ProjetoEcommerce.DAL
                         nome = @nome,
                         preco = @preco,
                         estoque = @estoque,
-                        categoria = @categoria
+                        categoria_id = @categoria
                         WHERE id = @id"; 
 
                 parametros.Add("@id", produto.Id);
@@ -33,7 +32,7 @@ namespace ProjetoEcommerce.DAL
             parametros.Add("@nome", produto.Nome);
             parametros.Add("@preco", produto.Preco);
             parametros.Add("@estoque", produto.Estoque);
-            parametros.Add("@categoria", produto.Categoria);
+            parametros.Add("@categoria", produto.Categoria.Id);
 
             _bd.AbrirConexao();
             if (_bd.ExecutarNonQuery(sql, parametros) == 1)
@@ -71,9 +70,11 @@ namespace ProjetoEcommerce.DAL
             List<Produto> produtos = new List<Produto>();
             Dictionary<string, object> parametros = new Dictionary<string, object>();
 
-            string sql = @"SELECT * 
-                           FROM produtos 
-                           WHERE nome LIKE @nome";
+            string sql = @"SELECT p.id, p.nome, p.preco, p.estoque, c.id as categoria_id, c.nome AS categoria_nome
+                            FROM produtos AS p
+                            INNER JOIN categorias AS c
+                            ON p.categoria_id = c.id 
+                            WHERE p.nome LIKE @nome";
 
             parametros.Add("@nome", "%" + nome + "%");
             _bd.AbrirConexao();
@@ -88,6 +89,22 @@ namespace ProjetoEcommerce.DAL
             return produtos;
         }
 
+        public bool Excluir(int id)
+        {
+            bool sucesso = false;
+            string sql = @"DELETE FROM produtos WHERE id = @id";
+            Dictionary<string, object> parametros = new Dictionary<string, object>();
+            parametros.Add("@id", id);
+
+            _bd.AbrirConexao();
+            if (_bd.ExecutarNonQuery(sql, parametros) == 1)
+            {
+                sucesso = true;
+            }
+            _bd.FecharConexao();
+
+            return sucesso;
+        }
         private Produto Map(DataRow row)
         {
             Produto p = new Produto()
@@ -96,7 +113,7 @@ namespace ProjetoEcommerce.DAL
                 Nome = row["nome"].ToString(),
                 Preco = Convert.ToDecimal(row["preco"]),
                 Estoque = Convert.ToInt32(row["estoque"]),
-                Categoria = row["categoria"].ToString()
+                Categoria = new Categoria(Convert.ToInt32(row["categoria_id"]), row["categoria_nome"].ToString()),
             };
             return p;
         }

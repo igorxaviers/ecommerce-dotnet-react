@@ -15634,6 +15634,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\projetos\\ecommerce-drive\\ProjetoEcommerce\\Areas\\Admin\\Views\\Produto\\Listagem.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Produto\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\projetos\\ecommerce-drive\\ProjetoEcommerce\\Areas\\Admin\\Views\\Categoria\\Index.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Categoria\\Index.cshtml",
       "FileKind": "mvc"

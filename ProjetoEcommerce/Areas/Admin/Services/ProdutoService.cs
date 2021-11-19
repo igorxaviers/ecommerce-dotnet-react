@@ -7,6 +7,8 @@ namespace ProjetoEcommerce.Areas.Admin.Services
 {
     public class ProdutoService
     {
+        DAL.ProdutoDAL _pDAL = new DAL.ProdutoDAL();
+
         public (bool, List<string>) ValidaProduto(Models.Produto produto)
         {
             bool ok = true;
@@ -16,5 +18,22 @@ namespace ProjetoEcommerce.Areas.Admin.Services
 
             return (ok, erros);
         }
+        
+        //listar todos os produtos
+        public IEnumerable<Models.Produto> ListarProdutos()
+        {
+            return _pDAL.Consulta("");
+        }
+
+        public bool Salvar(Models.Produto p)
+        {
+            return _pDAL.Salvar(p);
+        }
+
+        public bool Excluir(int id)
+        {
+            return _pDAL.Excluir(id);
+        }
+        
     }
 }

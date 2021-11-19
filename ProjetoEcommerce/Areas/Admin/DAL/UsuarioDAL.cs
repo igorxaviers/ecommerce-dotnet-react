@@ -16,17 +16,11 @@ namespace ProjetoEcommerce.DAL
             Dictionary<string, object> parametros = new Dictionary<string, object>();
             if (usuario.Id == 0)
             {
-                sql = @"INSERT INTO usuarios (login, nome, senha) 
-                        VALUES (@login, @nome, @senha)";
+                sql = @"INSERT INTO usuarios (login, nome, senha) VALUES (@login, @nome, @senha)";
             }
             else
             {
-                sql = @"UPDATE usuarios SET
-                        login = @login
-                        nome = @nome,
-                        senha = @senha,
-                        WHERE id = @id"; 
-
+                sql = @"UPDATE usuarios SET login = @login nome = @nome, senha = @senha, WHERE id = @id"; 
                 parametros.Add("@id", usuario.Id);
             }
             parametros.Add("@login", usuario.Login);
@@ -58,6 +52,8 @@ namespace ProjetoEcommerce.DAL
 
             _bd.AbrirConexao();
             DataTable dt = _bd.ExecutarSelect(sql, parametros);
+            _bd.FecharConexao();
+
             if (dt.Rows.Count == 0)
                 return null;
             else
@@ -66,7 +62,6 @@ namespace ProjetoEcommerce.DAL
 
                 return u;
             }
-            _bd.FecharConexao();
         }
 
         public IEnumerable<Usuario> Consulta(string nome)
@@ -104,18 +99,15 @@ namespace ProjetoEcommerce.DAL
 
         public bool ValidarAutenticacao(string login, string senha)
         {
-            string sql = @"SELECT COUNT(*)
-                            FROM usuarios
-                            WHERE 
-                            login = @login AND
-                            senha = @senha";
-
+            string sql = @"SELECT COUNT(*) FROM usuarios WHERE login = @login AND senha = @senha";
             Dictionary<string, object> parametros = new Dictionary<string, object>();
             parametros.Add("@login", login);
             parametros.Add("@senha", senha);
-
+            
+            _bd.AbrirConexao();
             bool ok = Convert.ToInt32(_bd.ExecutarConsultaSimples(sql, parametros)) == 1;
-            Object obj = _bd.ExecutarConsultaSimples(sql, parametros);
+            _bd.FecharConexao();
+            
             return ok;
         }
     }
