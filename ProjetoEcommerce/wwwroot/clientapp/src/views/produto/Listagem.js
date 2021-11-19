@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
+import CadastroEdit from './CadastroEdit';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './Listagem.css';
@@ -10,8 +11,14 @@ class Listagem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {  
+            id: '0',
+            nome: '',
+            preco: '',
+            estoque: '',
+            categoria_id: '1',
             produtos: [],
-            loadging: false
+            loadging: false,
+            show: false
         }
     }
 
@@ -44,7 +51,6 @@ class Listagem extends React.Component {
             }
             else{
                 toast.error(data.mensagem);
-                console.log('uai');
             }
             console.log(response.data);
         })
@@ -54,8 +60,20 @@ class Listagem extends React.Component {
         .finally(() => {
             console.log('Finalizado');
         });
-
     }
+
+    abrirModal = produto => {
+        this.setState({ show: true });
+        this.setState({
+            id: produto.id,
+            nome: produto.nome,
+            preco: produto.preco,
+            estoque: produto.estoque,
+            categoria_id: produto.categoria.id
+        });
+    }
+
+
 
     getColor = estoque => {
         if(estoque > 20) {
@@ -69,81 +87,87 @@ class Listagem extends React.Component {
         }
     }
 
-    showLoading = () => {
-        //return 4 times the same div
-
-    }
-
     render() { 
         let saida = 
             <>
+                <CadastroEdit pai={this}/>
                 <h1>Listagem de Produtos</h1>
                 <div className="p-5">
+                    <button 
+                        className="btn btn-success col-auto"
+                        onClick={() => this.setState({show: true})}>
+                            <i className="fas fa-plus me-3" aria-hidden="true"></i>
+                        Novo produto
+                    </button>
                     <div className="col-12">
                         <div className="row border-0 bg-light rounded my-5 ">
                             {
                                 this.state.loading 
                                 ? 
-                                Array.from(Array(4).keys()).map(i =>
-                                    <div className="produto loading col-8 p-3 mb-3 bg-white shadow-sm row flex-wrap align-items-center">
-                                    <div className="col-auto placeholder-glow">
-                                        <div className="placeholder " style={{height: 220, width: 220, borderRadius: 10}}> </div>
-                                    </div>
-                                    <div className="col row ps-5 placeholder-glow">
-                                        <h2 className="placeholder mb-4 rounded-3"></h2>
-                                        <div className="p-0">
-                                            <span className="placeholder mb-3 rounded-3" style={{height: 35, width: 100}}></span>
+                                Array.from(Array(6).keys()).map(i =>
+                                <div key={i} className="col-6 mb-3">
+                                    <div className="produto loading m-0 py-2 bg-white shadow-sm row flex-wrap align-items-center"> 
+                                        <div className="col-auto placeholder-glow">
+                                            <div className="placeholder " style={{height: 160, width: 160, borderRadius: 10}}> </div>
                                         </div>
-                                        <div className="p-0">
-                                            <span className="placeholder mb-3 rounded-3" style={{height: 35, width: 200}}></span>
-                                        </div>
-                                        <div className="p-0 mb-4">
-                                            <span className="placeholder mb-3 rounded-3" style={{height: 35, width: 240}}></span>
-                                        </div>
-                                        <div className="p-0 row justify-content-end">
-                                            <span className="placeholder w-10 mb-2 me-3 rounded-3" style={{width: 80, height: 35}}></span>
-                                            <span className="placeholder w-10 mb-2 me-3 rounded-3" style={{width: 80, height: 35}}></span>
+                                        <div className="col row ps-5 pe-3 placeholder-glow">
+                                            <h2 className="placeholder my-3 rounded-3"></h2>
+                                            <div className="p-0">
+                                                <span className="placeholder mb-2 rounded-3" style={{height: 25, width: 100}}></span>
+                                            </div>
+                                            <div className="p-0">
+                                                <span className="placeholder mb-2 rounded-3" style={{height: 25, width: 200}}></span>
+                                            </div>
+                                            <div className="p-0 mb-4">
+                                                <span className="placeholder mb-2 rounded-3" style={{height: 25, width: 240}}></span>
+                                            </div>
+                                            <div className="p-0 row justify-content-end">
+                                                <span className="placeholder w-10 mb-2 me-3 rounded-3" style={{width: 80, height: 35}}></span>
+                                                <span className="placeholder w-10 mb-2 me-3 rounded-3" style={{width: 80, height: 35}}></span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 )
                                 : this.state.produtos.map(produto => {
                                     return (
-                                        <div className="produto col-8 p-3 mb-3 bg-white shadow-sm row flex-wrap align-items-center" key={produto.id}>
-                                            <div className="col-auto">
-                                                <img 
-                                                    src="https://via.placeholder.com/200"
-                                                    className="col-auto"
-                                                    style={{height: 220, width: 220, borderRadius: 10}}
-                                                />
-                                            </div>
-                                            <div className="col row ps-3">
-                                                <h2>{produto.nome}</h2>
-                                                <p className="preco">
-                                                    <i class="fas fa-dollar-sign"></i>
-                                                    R$ {produto.preco}
-                                                </p>
-                                                <div className="p-0">
-                                                    <p className={`badge-estoque ${this.getColor(produto.estoque)}`}>
-                                                        <i class="fas fa-boxes"></i>
-                                                        Qtd. Estoque <span className="estoque">{produto.estoque}</span>
-                                                    </p>
+                                        <div className="col-6 mb-3" key={produto.id}>
+                                            <div className="produto m-0 py-3 bg-white shadow-sm row flex-wrap align-items-center">
+                                                <div className="col-auto">
+                                                    <img 
+                                                        src="https://via.placeholder.com/200"
+                                                        className="d-block mx-auto"
+                                                        style={{height: 160, width: 160, borderRadius: 10}}
+                                                    />
                                                 </div>
-                                                <p>
-                                                    <i class="fas fa-list"></i> 
-                                                    Categoria: <strong>{produto.categoria.nome}</strong>
-                                                </p>
-                                                <div className="row justify-content-end">
-                                                    <button 
-                                                        className="btn btn-primary col-auto mr-3"
-                                                        onClick={() =>console.log('editas') }>
-                                                        Editar
-                                                    </button>
-                                                    <button 
-                                                        className="btn btn-danger col-auto"
-                                                        onClick={() => this.excluirProduto(produto.id)}>
-                                                        Exlcuir
-                                                    </button>
+                                                <div className="col row px-3">
+                                                    <h2>{produto.nome}</h2>
+                                                    <p className="preco">
+                                                        <i className="fas fa-dollar-sign"></i>
+                                                        R$ {produto.preco}
+                                                    </p>
+                                                    <div className="p-0">
+                                                        <p className={`badge-estoque ${this.getColor(produto.estoque)}`}>
+                                                            <i className="fas fa-boxes"></i>
+                                                            Qtd. Estoque <span className="estoque">{produto.estoque}</span>
+                                                        </p>
+                                                    </div>
+                                                    <p>
+                                                        <i className="fas fa-list"></i> 
+                                                        Categoria: <strong>{produto.categoria.nome}</strong>
+                                                    </p>
+                                                    <div className="row justify-content-end">
+                                                        <button 
+                                                            className="btn btn-primary col-auto mr-3"
+                                                            onClick={() => this.abrirModal(produto)}>
+                                                            Editar
+                                                        </button>
+                                                        <button 
+                                                            className="btn btn-danger col-auto"
+                                                            onClick={() => this.excluirProduto(produto.id)}>
+                                                            Exlcuir
+                                                        </button>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

@@ -30,8 +30,9 @@
 .produto p{
     color: #262626;
     border-radius: 4px;
-    padding: 8px 10px;
+    padding: 4px 10px;
     font-size: 16px;
+    margin: 4px 0;
     font-weight: 600;
     width: fit-content;
     background-color: #f1f1f1;
@@ -54,4 +55,27 @@
 .loading div.placeholder{
     width: 150px;
     height: 150px;
+}
+
+
+.modal-produto{
+    transform: scale(0.1) translate(-50%, -50%);
+    transform-origin: top left;
+    position: fixed;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    z-index: -1;
+    transition: 400ms !important;
+    box-shadow: 0 0 -1 41em rgba(0,0,0,0.7)!important;
+}
+
+.show{
+    opacity: 1;
+    z-index: 50;
+    box-shadow: 0 0em 25em 200em rgba(0,0,0,0.7)!important;
+    transform: scale(1) translate(-50%, -50%) !important;
 }

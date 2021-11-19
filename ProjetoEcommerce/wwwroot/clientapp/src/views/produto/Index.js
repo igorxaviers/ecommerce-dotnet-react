@@ -1,61 +1,90 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
 import axios from 'axios';
+import CadastroEdit from './CadastroEdit';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './Listagem.css';
 
-class CadastroProduto extends React.Component {
+class Listagem extends React.Component {
+
     constructor(props) {
         super(props);
-        this.state = {
+        this.state = {  
             id: '0',
             nome: '',
             preco: '',
             estoque: '',
             categoria_id: '1',
-            categorias: [
-                { id: 1, nome: 'Hardware' },
-                { id: 2, nome: 'Periféricos' },
-                { id: 3, nome: 'Cadeiras/Mesas' },
-                { id: 4, nome: 'Monitores' },
-                { id: 5, nome: 'Notebooks' },
-            ],
-            loading: false
-        };
+            categoria_nome: '',
+            produtos: [],
+            loadging: false,
+            show: false
+        }
     }
 
-    handleChange = e => {
-        const target = e.target;
-        const value = target.value;
-        const name = target.name;
-        this.setState({
-            [name]: value
+    componentDidMount = () => {
+        this.setState({ loading: true });
+        axios.get('Produto/Listar')
+        .then(response => {
+            console.log(response.data);
+            this.setState({ produtos: response.data });
+        })
+        .catch(error => {
+            console.log(error);
+        })
+        .finally(() => {
+            this.setState({ loading: false });
+            console.log('Finalizado');
         });
     }
 
-    handleSelect = e => {
-        const categoria_id = parseInt(e.target.value);
-        this.setState({ categoria_id });
-     }
+    excluirProduto = id => {
+        axios.delete('Produto/Excluir/' + id)
+        .then(response => {
+            const {data} = response;
+            if(data.sucesso) {
+                let produtos = this.state.produtos.filter(produto => produto.id !== id);
+                console.log(produtos);
+                this.setState({produtos});
+                console.log(this.state.produtos);
+                toast.success(data.mensagem);
+            }
+            else{
+                toast.error(data.mensagem);
+            }
+            console.log(response.data);
+        })
+        .catch(error => {
+            console.log(error);
+        })
+        .finally(() => {
+            console.log('Finalizado');
+        });
+    }
 
     salvarProduto = () => {
         this.setState({ loading: true });
         const produto =
         {
-            id: this.state.id,
+            id: Number(this.state.id),
             nome: this.state.nome,
-            preco: this.state.preco,
-            estoque: this.state.estoque,
-            categoria_id: this.state.categoria_id
+            preco:  Number(this.state.preco),
+            estoque: Number(this.state.estoque),
+            categoria_id: Number(this.state.categoria_id)
         }
-        axios.post('Salvar', produto)
+        console.log(produto);
+        axios.post('Produto/Salvar', produto)
         .then(response => {
             const {data} = response;
             if (data.sucesso) {
+                console.log(data);
                 toast.success(data.mensagem, {
                     position: "bottom-right",
                     theme: "colored"
                 });
+                // this.state.produtos.push(data.produto);
+                this.fecharModal();
             }
             else {
                 toast.error(data.mensagem, {
@@ -75,85 +104,131 @@ class CadastroProduto extends React.Component {
         });
     }
 
-    render() {
-        const saida =
+
+    abrirModal = produto => {
+        this.setState({ show: true });
+        this.setState({
+            id: produto.id,
+            nome: produto.nome,
+            preco: produto.preco,
+            estoque: produto.estoque,
+            categoria_id: produto.categoria.id
+        });
+    }
+
+
+
+    getColor = estoque => {
+        if(estoque > 20) {
+            return 'border-success';
+        }
+        else if(estoque > 10) {
+            return 'border-warning';
+        }
+        else {
+            return 'border-danger';
+        }
+    }
+
+    render() { 
+        let saida = 
             <>
-                <div className="card o-hidden border-0 shadow-lg">
-                    <div className="card-body p-0">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="p-5">
-                                    <div className="text-left">
-                                        <h1 className="h4 text-gray-900 mb-4">Cadastro de Produto</h1>
+                <CadastroEdit pai={this}/>
+                <h1>Listagem de Produtos</h1>
+                <div className="p-5">
+                    <button 
+                        className="btn btn-success col-auto"
+                        onClick={() => this.setState({show: true})}>
+                            <i className="fas fa-plus me-3" aria-hidden="true"></i>
+                        Novo produto
+                    </button>
+                    <div className="col-12">
+                        <div className="row border-0 bg-light rounded my-5 ">
+                            {
+                                this.state.loading 
+                                ? 
+                                Array.from(Array(6).keys()).map(i =>
+                                <div key={i} className="col-6 mb-3">
+                                    <div className="produto loading m-0 py-2 bg-white shadow-sm row flex-wrap align-items-center"> 
+                                        <div className="col-auto placeholder-glow">
+                                            <div className="placeholder " style={{height: 160, width: 160, borderRadius: 10}}> </div>
+                                        </div>
+                                        <div className="col row ps-5 pe-3 placeholder-glow">
+                                            <h2 className="placeholder my-3 rounded-3"></h2>
+                                            <div className="p-0">
+                                                <span className="placeholder mb-2 rounded-3" style={{height: 25, width: 100}}></span>
+                                            </div>
+                                            <div className="p-0">
+                                                <span className="placeholder mb-2 rounded-3" style={{height: 25, width: 200}}></span>
+                                            </div>
+                                            <div className="p-0 mb-4">
+                                                <span className="placeholder mb-2 rounded-3" style={{height: 25, width: 240}}></span>
+                                            </div>
+                                            <div className="p-0 row justify-content-end">
+                                                <span className="placeholder w-10 mb-2 me-3 rounded-3" style={{width: 80, height: 35}}></span>
+                                                <span className="placeholder w-10 mb-2 me-3 rounded-3" style={{width: 80, height: 35}}></span>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <form className="user" id="form-produto">
-                                        <div className="form-group">
-                                            <label>Nome do produto</label>
-                                            <input
-                                                type="text"
-                                                name="nome"
-                                                className="form-control"
-                                                placeholder="Nome do produto"
-                                                value={this.state.nome}
-                                                onChange={this.handleChange}
-                                                required />
-                                        </div>
-                                        <div className="form-group">
-                                            <label>Preço do produto</label>
-                                            <input
-                                                type="number"
-                                                name="preco"
-                                                className="form-control"
-                                                placeholder="Preço"
-                                                value={this.state.preco}
-                                                onChange={this.handleChange}
-                                                required
-                                            />
-                                        </div>
-                                        <div className="form-group">
-                                            <label>Estoque do produto</label>
-                                            <input
-                                                type="number"
-                                                name="estoque"
-                                                className="form-control"
-                                                placeholder="Estoque"
-                                                value={this.state.estoqe}
-                                                onChange={this.handleChange}
-                                                required />
-                                        </div>
-                                        <div>
-                                            <label>Categoria do produto</label>
-                                            <select
-                                                className="form-select"
-                                                name="categoria"
-                                                onChange={this.handleSelect}>
-                                                {
-                                                    this.state.categorias.map(categoria => {
-                                                        return <option key={categoria.id} value={categoria.id}>{categoria.nome}</option>
-                                                    })
-                                                }
-                                            </select>
-                                        </div>
-
-                                        <button
-                                            type="button"
-                                            className={"btn btn-primary " + (this.state.loading ? "disable" : "")}
-                                            onClick={this.salvarProduto}>
-                                            {this.state.loading ? <i className="fas fa-circle-notch fa-spin"></i> : ""}
-                                            Cadastrar Produto
-                                        </button>
-
-                                    </form>
                                 </div>
-                            </div>
+                                )
+                                : this.state.produtos.map(produto => {
+                                    return (
+                                        <div className="col-6 mb-3" key={produto.id}>
+                                            <div className="produto m-0 py-3 bg-white shadow-sm row flex-wrap align-items-center">
+                                                <div className="col-auto">
+                                                    <img 
+                                                        src="https://via.placeholder.com/200"
+                                                        className="d-block mx-auto"
+                                                        style={{height: 160, width: 160, borderRadius: 10}}
+                                                    />
+                                                </div>
+                                                <div className="col row px-3">
+                                                    <h2>{produto.nome}</h2>
+                                                    <p className="preco">
+                                                        <i className="fas fa-dollar-sign"></i>
+                                                        R$ {produto.preco}
+                                                    </p>
+                                                    <div className="p-0">
+                                                        <p className={`badge-estoque ${this.getColor(produto.estoque)}`}>
+                                                            <i className="fas fa-boxes"></i>
+                                                            Qtd. Estoque <span className="estoque">{produto.estoque}</span>
+                                                        </p>
+                                                    </div>
+                                                    <p>
+                                                        <i className="fas fa-list"></i> 
+                                                        Categoria: <strong>{produto.categoria.nome}</strong>
+                                                    </p>
+                                                    <div className="row justify-content-end">
+                                                        <button 
+                                                            className="btn btn-primary col-auto mr-3"
+                                                            onClick={() => this.abrirModal(produto)}>
+                                                            Editar
+                                                        </button>
+                                                        <button 
+                                                            className="btn btn-danger col-auto"
+                                                            onClick={() => this.excluirProduto(produto.id)}>
+                                                            Exlcuir
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )
+                                })
+                            }
                         </div>
                     </div>
                 </div>
-                <ToastContainer />
+                <ToastContainer 
+                    position="bottom-right"
+                    theme="colored"
+                />
             </>
-        return (saida);
+        return saida;
     }
 }
+ 
+export default Listagem;
 
-export default CadastroProduto;
-ReactDom.render(<CadastroProduto />, document.getElementById("root"));
+ReactDOM.render(<Listagem />, document.getElementById('root'));
